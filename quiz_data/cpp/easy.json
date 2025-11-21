@@ -1,0 +1,469 @@
+
+[
+  {
+    "id": "cpp_e1",
+    "topic": "Basics",
+    "question": "Which symbol ends a C++ statement?",
+    "options": ["&", ",", ";", ":"],
+    "correct": ";",
+    "explanation": "Semicolon ends a statement.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e2",
+    "topic": "Variables",
+    "question": "Which keyword is used to declare an integer?",
+    "options": ["float", "double", "string", "int"],
+    "correct": "int",
+    "explanation": "int is used to declare integer variables.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e3",
+    "topic": "Basics",
+    "question": "Which of the following is used to output text in C++?",
+    "options": ["cout", "print()", "output()", "printf"],
+    "correct": "cout",
+    "explanation": "cout is the standard output stream in C++.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e4",
+    "topic": "Basics",
+    "question": "Which header file is required for cout?",
+    "options": ["<string>", "<iostream>", "<stdio.h>", "<stdlib.h>"],
+    "correct": "<iostream>",
+    "explanation": "cout and cin are defined in the <iostream> library.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e5",
+    "topic": "Variables",
+    "question": "Which keyword is used to declare a floating-point variable?",
+    "options": ["int", "char", "float", "bool"],
+    "correct": "float",
+    "explanation": "float stores decimal values like 3.14.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e6",
+    "topic": "Variables",
+    "question": "Which datatype is used for true/false values?",
+    "options": ["bit", "bool", "boolean", "binary"],
+    "correct": "bool",
+    "explanation": "bool stores logical values: true or false.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e7",
+    "topic": "Basics",
+    "question": "Which symbol is used for comments in C++?",
+    "options": ["//", "/* */", "#comment", "--"],
+    "correct": "//",
+    "explanation": "// creates a single-line comment.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e8",
+    "topic": "I/O",
+    "question": "Which operator is used with cout?",
+    "options": ["<<", ">>", "**", "::"],
+    "correct": "<<",
+    "explanation": "<< is the insertion operator for output.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e9",
+    "topic": "I/O",
+    "question": "Which operator is used with cin?",
+    "options": ["<<", ">>", "<<<", "<>"],
+    "correct": ">>",
+    "explanation": ">> is the extraction operator used for input.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e10",
+    "topic": "Basics",
+    "question": "C++ is an example of?",
+    "options": ["Functional language", "Procedural language", "Object-oriented language", "Markup language"],
+    "correct": "Object-oriented language",
+    "explanation": "C++ supports OOP concepts like classes and objects.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e11",
+    "topic": "Operators",
+    "question": "Which operator is used for addition?",
+    "options": ["+", "-", "*", "/"],
+    "correct": "+",
+    "explanation": "The + operator performs addition.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e12",
+    "topic": "Operators",
+    "question": "Which operator finds the remainder?",
+    "options": ["//", "%", "&", "$"],
+    "correct": "%",
+    "explanation": "% gives the remainder in division.",
+    "points": 1
+  },
+
+  {
+    "id": "cpp_e13",
+    "topic": "Basics",
+    "question": "What is the correct file extension for C++ files?",
+    "options": [".cp", ".cxx", ".cpp", ".cx"],
+    "correct": ".cpp",
+    "explanation": ".cpp is the standard C++ file extension.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e14",
+    "topic": "Basics",
+    "question": "Which keyword is used to end a loop immediately?",
+    "options": ["exit", "stop", "break", "quit"],
+    "correct": "break",
+    "explanation": "break terminates a loop instantly.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e15",
+    "topic": "Operators",
+    "question": "Which is the assignment operator?",
+    "options": ["=", "==", "!=", "<="],
+    "correct": "=",
+    "explanation": "= assigns a value to a variable.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e16",
+    "topic": "Operators",
+    "question": "What does == check?",
+    "options": ["Identity", "Equality", "Assignment", "None"],
+    "correct": "Equality",
+    "explanation": "== compares two values for equality.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e17",
+    "topic": "Variables",
+    "question": "Which type stores a single character?",
+    "options": ["int", "string", "char", "bool"],
+    "correct": "char",
+    "explanation": "char stores one ASCII character.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e18",
+    "topic": "Variables",
+    "question": "Which keyword is used to create constants?",
+    "options": ["fixed", "unchanged", "constant", "const"],
+    "correct": "const",
+    "explanation": "const makes a variable unchangeable.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e19",
+    "topic": "Loops",
+    "question": "Which loop checks the condition before execution?",
+    "options": ["do-while", "while", "repeat", "loop"],
+    "correct": "while",
+    "explanation": "while evaluates the condition first.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e20",
+    "topic": "Loops",
+    "question": "Which loop executes at least once?",
+    "options": ["while", "for", "do-while", "repeat-until"],
+    "correct": "do-while",
+    "explanation": "do-while executes its block once before checking condition.",
+    "points": 1
+  },
+
+  {
+    "id": "cpp_e21",
+    "topic": "Strings",
+    "question": "Which header is needed for string class?",
+    "options": ["<string>", "<cstring>", "<text>", "<strings.h>"],
+    "correct": "<string>",
+    "explanation": "<string> provides string class support.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e22",
+    "topic": "Basics",
+    "question": "main() function returns which datatype?",
+    "options": ["void", "int", "float", "bool"],
+    "correct": "int",
+    "explanation": "By standard, main returns int.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e23",
+    "topic": "Memory",
+    "question": "Which operator allocates memory dynamically?",
+    "options": ["new", "malloc", "alloc", "make"],
+    "correct": "new",
+    "explanation": "new allocates memory in C++.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e24",
+    "topic": "Memory",
+    "question": "Which operator frees memory allocated using new?",
+    "options": ["delete", "free", "remove", "clear"],
+    "correct": "delete",
+    "explanation": "delete deallocates memory allocated by new.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e25",
+    "topic": "Functions",
+    "question": "Which keyword is used to return a value from a function?",
+    "options": ["send", "return", "give", "yield"],
+    "correct": "return",
+    "explanation": "return sends value back to the caller.",
+    "points": 1
+  },
+
+  {
+    "id": "cpp_e26",
+    "topic": "OOP",
+    "question": "C++ classes contain?",
+    "options": ["Only variables", "Only functions", "Both variables and functions", "Only objects"],
+    "correct": "Both variables and functions",
+    "explanation": "Classes have attributes and methods.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e27",
+    "topic": "OOP",
+    "question": "Which keyword creates an object?",
+    "options": ["class", "struct", "new", "object"],
+    "correct": "new",
+    "explanation": "The new keyword dynamically creates objects.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e28",
+    "topic": "Conditions",
+    "question": "Which keyword begins a conditional branch?",
+    "options": ["if", "else", "when", "check"],
+    "correct": "if",
+    "explanation": "if starts a conditional statement.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e29",
+    "topic": "Conditions",
+    "question": "else block executes when?",
+    "options": ["Condition is true", "Condition is false", "Always", "Never"],
+    "correct": "Condition is false",
+    "explanation": "else runs when if's condition fails.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e30",
+    "topic": "Arrays",
+    "question": "Arrays in C++ are?",
+    "options": ["Dynamic", "Fixed-size", "Infinite", "Pointer only"],
+    "correct": "Fixed-size",
+    "explanation": "Arrays have fixed size at compile time.",
+    "points": 1
+  },
+
+  {
+    "id": "cpp_e31",
+    "topic": "Arrays",
+    "question": "Array indexing starts from?",
+    "options": ["1", "-1", "0", "Depends"],
+    "correct": "0",
+    "explanation": "C++ arrays are zero-indexed.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e32",
+    "topic": "Basics",
+    "question": "Which keyword stops execution of the program?",
+    "options": ["break", "exit()", "stop", "quit"],
+    "correct": "exit()",
+    "explanation": "exit() terminates the whole program.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e33",
+    "topic": "Basics",
+    "question": "Which is NOT a valid C++ datatype?",
+    "options": ["int", "byte", "float", "bool"],
+    "correct": "byte",
+    "explanation": "byte is not a built-in C++ datatype.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e34",
+    "topic": "Operators",
+    "question": "--x is an example of?",
+    "options": ["Post-decrement", "Pre-decrement", "Post-increment", "Pre-increment"],
+    "correct": "Pre-decrement",
+    "explanation": "It decreases value first, then uses it.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e35",
+    "topic": "Operators",
+    "question": "x++ is?",
+    "options": ["Pre-increment", "Post-increment", "Pre-decrement", "Bit shift"],
+    "correct": "Post-increment",
+    "explanation": "Value is used first, then incremented.",
+    "points": 1
+  },
+
+  {
+    "id": "cpp_e36",
+    "topic": "Functions",
+    "question": "Which keyword defines a function?",
+    "options": ["function", "fn", "def", "None"],
+    "correct": "None",
+    "explanation": "C++ uses return_type functionName().",
+    "points": 1
+  },
+  {
+    "id": "cpp_e37",
+    "topic": "Functions",
+    "question": "Functions help in?",
+    "options": ["Debugging", "Reusability", "Organization", "All of these"],
+    "correct": "All of these",
+    "explanation": "Functions improve code structure and reuse.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e38",
+    "topic": "Loops",
+    "question": "for loop syntax contains how many expressions?",
+    "options": ["1", "2", "3", "4"],
+    "correct": "3",
+    "explanation": "Initialization, condition, update.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e39",
+    "topic": "Conditions",
+    "question": "Which operator represents logical AND?",
+    "options": ["&", "&&", "AND", "@@"],
+    "correct": "&&",
+    "explanation": "&& evaluates two conditions logically.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e40",
+    "topic": "Conditions",
+    "question": "Which operator represents logical OR?",
+    "options": ["||", "|", "OR", "++"],
+    "correct": "||",
+    "explanation": "|| returns true if any condition is true.",
+    "points": 1
+  },
+
+  {
+    "id": "cpp_e41",
+    "topic": "I/O",
+    "question": "Which stream is used for input?",
+    "options": ["cout", "cin", "read", "extract"],
+    "correct": "cin",
+    "explanation": "cin extracts user input.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e42",
+    "topic": "Strings",
+    "question": "Which function returns string length?",
+    "options": ["size()", "count()", "length()", "len()"],
+    "correct": "length()",
+    "explanation": "length() gives number of characters.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e43",
+    "topic": "Basics",
+    "question": "Which of these starts a C++ program?",
+    "options": ["start()", "main()", "run()", "program()"],
+    "correct": "main()",
+    "explanation": "Execution begins from main().",
+    "points": 1
+  },
+  {
+    "id": "cpp_e44",
+    "topic": "Memory",
+    "question": "Pointer stores?",
+    "options": ["Value", "Address", "Keyword", "Operator"],
+    "correct": "Address",
+    "explanation": "Pointers store memory addresses.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e45",
+    "topic": "Memory",
+    "question": "Which symbol is used to declare a pointer?",
+    "options": ["&", "*", "@", "%"],
+    "correct": "*",
+    "explanation": "* is used to declare pointer variables.",
+    "points": 1
+  },
+
+  {
+    "id": "cpp_e46",
+    "topic": "Arrays",
+    "question": "Which is a correct array declaration?",
+    "options": ["int arr()", "int arr[]", "int arr[5];", "array arr(5)"],
+    "correct": "int arr[5];",
+    "explanation": "Arrays require size inside [].",
+    "points": 1
+  },
+  {
+    "id": "cpp_e47",
+    "topic": "Basics",
+    "question": "What does endl do?",
+    "options": ["Ends program", "Clears screen", "Inserts newline", "Ends function"],
+    "correct": "Inserts newline",
+    "explanation": "endl moves output to next line.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e48",
+    "topic": "Strings",
+    "question": "Which operator concatenates strings?",
+    "options": ["+", "&", "||", "::"],
+    "correct": "+",
+    "explanation": "+ is overloaded for string concatenation.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e49",
+    "topic": "Basics",
+    "question": "Which keyword creates a new variable?",
+    "options": ["var", "let", "define", "None of these"],
+    "correct": "None of these",
+    "explanation": "C++ does not use var/let; it uses data types.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e50",
+    "topic": "Loops",
+    "question": "Which loop is best for known number of iterations?",
+    "options": ["while", "for", "do-while", "repeat"],
+    "correct": "for",
+    "explanation": "for loop is ideal when iteration count is known.",
+    "points": 1
+  },
+  {
+    "id": "cpp_e51",
+    "topic": "Basics",
+    "question": "Comments help in?",
+    "options": ["Execution", "Documentation", "Compilation speed", "Memory"],
+    "correct": "Documentation",
+    "explanation": "Comments explain code but do not execute.",
+    "points": 1
+  }
+]

@@ -1,0 +1,38 @@
+{
+    "f59272fc64c24f37ab205aa574d5dfbd": {
+        "username": "sam",
+        "score": 23,
+        "mode": "classic",
+        "time": 15
+    },
+    "83c749db9efd41ec9e43e8f3800f9a70": {
+        "username": "sara",
+        "score": 23,
+        "mode": "classic",
+        "time": 16,
+        "attemptId": "c2ffb401f14f4bc2ad3938a44ba764ee",
+        "timestamp": 1763679035.0848844
+    },
+    "ec139e6183db4647a87d1af106adae61": {
+        "username": "anushka",
+        "score": 0,
+        "mode": "classic",
+        "time": 1,
+        "attemptId": "d2eab302a26a434bb892056cfbd05bf7",
+        "timestamp": 1763679853.5867763
+    },
+    "anushka": {
+        "username": "anushka",
+        "score": 0,
+        "mode": "classic",
+        "time": 20,
+        "timestamp": 1763721919.257681
+    },
+    "bhumika": {
+        "username": "bhumika",
+        "score": 10,
+        "mode": "challenge",
+        "time": 18,
+        "timestamp": 1763719826.3637466
+    }
+}

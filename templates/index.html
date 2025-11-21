@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Quiz League — Game Mode</title>
+  <link rel="stylesheet" href="/static/css/style.css?v=2" />
+  <style>
+    /* small overlay styles so analytics shows centered */
+    #overlayBackdrop {
+      display:none;
+      position:fixed;
+      inset:0;
+      background: rgba(0,0,0,0.35);
+      z-index: 80;
+    }
+    #analyticsBox{
+      display:none;
+      position:fixed;
+      left:50%;
+      top:50%;
+      transform:translate(-50%,-50%);
+      z-index: 90;
+      width: min(800px, 92%);
+      max-height: 86vh;
+      overflow:auto;
+      background:white;
+      border-radius:12px;
+      padding:18px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    }
+    #analyticsHeader { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+    #analyticsList { margin-top:12px; }
+    .analytics-controls { margin-top:14px; display:flex; gap:10px; justify-content:center; }
+    .opt-btn { display:block; width:100%; padding:10px 12px; margin:8px 0; border-radius:8px; background:#fff; border:1px solid #ddd; cursor:pointer; text-align:left; }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- ========== LEFT SIDEBAR ========== -->
+    <div class="sidebar">
+
+      <!-- Mascot Card -->
+      <div class="card mascot">
+        <div style="text-align:center;">
+          <img src="/static/images/mascot.png" alt="mascot" style="width:110px;" />
+        </div>
+        <div class="bubble" id="rankBubble">Bronze II</div>
+        <div class="doodle">Hey {{ username }}! Ready to level up?</div>
+      </div>
+
+      <!-- Logout -->
+      <div class="card" style="text-align:center;">
+        <button onclick="window.location.href='/logout'"
+                style="padding:10px 20px;
+                       background:#ff4d4d;
+                       color:white;
+                       border:none;
+                       border-radius:8px;
+                       font-weight:700;
+                       width:100%;
+                       cursor:pointer;">
+          Logout
+        </button>
+      </div>
+
+      <!-- Subject Selection -->
+      <div class="card">
+        <div style="font-weight:800;margin-bottom:8px;">Select Subject</div>
+
+        <div class="subject-select">
+          <select id="subject">
+            <option value="data_structures">Data Structures</option>
+            <option value="cpp">C++</option>
+          </select>
+          <button id="start" style="background:var(--accent);color:white">Start</button>
+        </div>
+
+        <!-- Quiz Mode -->
+        <div style="margin-top:20px;">
+          <div style="font-weight:800;margin-bottom:6px;">Quiz Mode</div>
+          <select id="quizMode" style="width:100%;padding:8px;">
+            <option value="classic">Classic</option>
+            <option value="rapid">Rapid (Timed)</option>
+            <option value="challenge">Challenge</option>
+          </select>
+        </div>
+
+        <!-- Question Count (Classic only) -->
+        <div id="questionCountBox" style="margin-top:12px;">
+          <div style="font-weight:700;margin-bottom:6px;">Number of Questions</div>
+          <select id="questionCount" style="width:100%;padding:8px;">
+            <option value="5">5 Questions</option>
+            <option value="10">10 Questions</option>
+            <option value="15">15 Questions</option>
+          </select>
+        </div>
+
+        <!-- Time Limit (Rapid only) -->
+        <div id="timeLimitBox" style="margin-top:12px;display:none;">
+          <div style="font-weight:700;margin-bottom:6px;">Time Limit</div>
+          <select id="rapidTime" style="width:100%;padding:8px;">
+            <option value="60">60 seconds</option>
+            <option value="90">90 seconds</option>
+            <option value="120">120 seconds</option>
+          </select>
+        </div>
+
+        <!-- XP -->
+        <div style="margin-top:12px;">
+          <div style="font-weight:700;margin-bottom:6px;">XP</div>
+          <div class="xp">
+            <div class="fill" id="xpFill" style="width:8%"></div>
+          </div>
+          <div class="doodle">Rank: <span id="rankLabel">Bronze II</span></div>
+        </div>
+
+      </div>
+
+      <!-- Weekly Leaderboard -->
+      <div class="card">
+        <div style="font-weight:800;margin-bottom:8px;">Leaderboard (top 3)</div>
+        <ol id="weeklyBoard">
+  <li>Loading...</li>
+</ol>
+
+      </div>
+
+    </div> <!-- END SIDEBAR -->
+
+
+    <!-- ========== MAIN STAGE ========== -->
+    <div class="stage">
+
+      <div class="question-card">
+
+        <!-- LEFT SIDE -->
+        <div class="question-left">
+
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <div>
+              <div style="font-size:14px;color:var(--muted)">
+                Subject: <strong id="uiSubject">—</strong>
+              </div>
+
+              <div class="q-text" id="qText">
+                Select subject and press Start
+              </div>
+            </div>
+
+            <div class="side-panel">
+              <div style="font-weight:800">Timer</div>
+              <div id="timer" style="font-size:20px;">00:00</div>
+              <div style="height:12px"></div>
+              <div style="font-weight:800">Difficulty</div>
+              <div id="uiLevel">—</div>
+            </div>
+          </div>
+
+          <!-- OPTIONS AREA -->
+          <div id="optionsArea" class="options" style="margin-top:16px;"></div>
+
+          <!-- END QUIZ BUTTON -->
+          <button id="endQuizBtn"
+                  style="margin-top:20px;
+                         padding:10px 16px;
+                         background:#ff4d4d;
+                         color:white;
+                         border:none;
+                         border-radius:8px;
+                         font-weight:700;
+                         cursor:pointer;
+                         display:none;">
+            End Quiz
+          </button>
+
+        </div>
+
+        <!-- RIGHT SIDE (Stats) -->
+        <div class="side-panel">
+          <div style="font-weight:800">Quick Stats</div>
+          <div style="margin-top:8px;">Score: <span id="uiScore">0</span></div>
+          <div style="margin-top:8px;">Questions Attempted: <span id="uiAttempted">0</span></div>
+          <div style="margin-top:8px;">Correct: <span id="uiCorrect">0</span></div>
+        </div>
+
+      </div>
+
+    </div> <!-- END stage -->
+
+  </div> <!-- END app -->
+
+  <!-- Backdrop + Analytics Box -->
+  <div id="overlayBackdrop"></div>
+
+  <div id="analyticsBox" role="dialog" aria-modal="true">
+    <div id="analyticsHeader">
+      <div>
+        <h2 style="margin:0">Quiz Analytics</h2>
+        <div id="analyticsSummary" style="color:#444;margin-top:6px"></div>
+      </div>
+      <div style="text-align:right">
+        <button id="analyticsCloseBtn" style="background:#eee;border:0;padding:8px;border-radius:8px;cursor:pointer">Close</button>
+      </div>
+    </div>
+
+    <div id="analyticsList"></div>
+
+    <div class="analytics-controls">
+      <button id="analyticsPlayAgainBtn" style="padding:10px 14px;background:#6b63ff;color:#fff;border-radius:8px;border:0;cursor:pointer">🔁 Play Again</button>
+      <button id="analyticsHomeBtn" style="padding:10px 14px;background:#ff4d4d;color:#fff;border-radius:8px;border:0;cursor:pointer">⬅ Back Home</button>
+    </div>
+  </div>
+
+  <script src="/static/js/app.js?v=11"></script>
+
+</body>
+</html>

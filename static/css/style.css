@@ -1,0 +1,125 @@
+/* GLOBAL BASE */
+:root {
+    --accent: #6b63ff;
+    --card-bg: #ffffff;
+    --bg: #faf9ff;
+    --muted: #7b7b7b;
+    --radius: 14px;
+    --shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: var(--bg);
+}
+
+/* MAIN APP LAYOUT */
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT SIDEBAR */
+.sidebar {
+    width: 280px;
+    padding: 18px;
+    background: #fff;
+    border-right: 2px solid #eee;
+    overflow-y: auto;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 16px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 18px;
+}
+
+/* MASCOT SECTION */
+.mascot img {
+    width: 110px;
+    margin-bottom: 8px;
+}
+
+.bubble {
+    background: var(--accent);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.doodle {
+    font-size: 13px;
+    color: #444;
+    margin-top: 8px;
+}
+
+/* XP BAR */
+.xp {
+    width: 100%;
+    height: 8px;
+    background: #eae8ff;
+    border-radius: 6px;
+}
+
+.xp .fill {
+    height: 8px;
+    background: var(--accent);
+    border-radius: 6px;
+}
+
+/* MAIN STAGE */
+.stage {
+    flex: 1;
+    padding: 24px;
+    overflow-y: auto;
+}
+
+/* QUESTION CARD */
+.question-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.q-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+/* OPTIONS */
+.options button {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+    background: #f2f0ff;
+    border: none;
+    border-radius: var(--radius);
+    margin-top: 12px;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.2s ease;
+}
+
+.options button:hover {
+    background: #e4e0ff;
+}
+
+/* RIGHT-SIDE PANELS */
+.side-panel {
+    padding-left: 20px;
+    min-width: 160px;
+    border-left: 2px solid #eee;
+}
+

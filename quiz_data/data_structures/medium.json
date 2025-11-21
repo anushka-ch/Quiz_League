@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ds_m1",
+    "topic": "Stacks",
+    "question": "Which operation is not valid in a stack?",
+    "options": ["push", "pop", "peek", "enqueue"],
+    "correct": "enqueue",
+    "explanation": "enqueue is used in queues, not stacks.",
+    "points": 3
+  },
+  {
+    "id": "ds_m2",
+    "topic": "Queues",
+    "question": "Which technique is used to avoid overflow in queues?",
+    "options": ["Circular Queue", "Doubly Queue", "Indexed Queue", "Sub Queue"],
+    "correct": "Circular Queue",
+    "explanation": "Circular queue prevents unused space in the queue.",
+    "points": 3
+  }
+]

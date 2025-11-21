@@ -1,0 +1,453 @@
+[
+  {
+    "id": "cpp_h1",
+    "topic": "Memory",
+    "question": "Which keyword is used to deallocate memory allocated with 'new'?",
+    "options": ["free", "delete", "remove", "clear"],
+    "correct": "delete",
+    "explanation": "'delete' frees memory allocated by 'new'.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h2",
+    "topic": "Templates",
+    "question": "Which feature allows writing generic functions in C++?",
+    "options": ["Inheritance", "Overloading", "Templates", "Polymorphism"],
+    "correct": "Templates",
+    "explanation": "Templates allow generic programming in C++.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h3",
+    "topic": "STL",
+    "question": "Which container provides constant time insertion/removal at both ends and random access is not guaranteed?",
+    "options": ["vector", "deque", "list", "array"],
+    "correct": "deque",
+    "explanation": "deque provides fast insertion/removal at both ends; random-access is supported but internals differ from vector.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h4",
+    "topic": "Smart Pointers",
+    "question": "Which smart pointer allows multiple owners of the same object?",
+    "options": ["unique_ptr", "shared_ptr", "weak_ptr", "auto_ptr"],
+    "correct": "shared_ptr",
+    "explanation": "shared_ptr implements shared ownership with reference counting.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h5",
+    "topic": "Exception Safety",
+    "question": "What guarantee does the term 'no-throw guarantee' (or strong exception safety) refer to?",
+    "options": ["Program terminates", "Operation has no side effects on failure", "Exceptions are ignored", "All exceptions are converted to bool"],
+    "correct": "Operation has no side effects on failure",
+    "explanation": "Strong exception safety means the operation either completes successfully or has no visible effects on program state.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h6",
+    "topic": "Move Semantics",
+    "question": "Which member function signature indicates a move constructor?",
+    "options": ["T(const T&)", "T(T&)", "T(T&&)", "T&&(T)"],
+    "correct": "T(T&&)",
+    "explanation": "A move constructor takes an rvalue reference to the same type: T(T&&).",
+    "points": 5
+  },
+  {
+    "id": "cpp_h7",
+    "topic": "Templates",
+    "question": "What does 'typename' indicate in a template parameter 'template <typename T>'?",
+    "options": ["Namespace alias", "Type parameter", "Function template", "Value parameter"],
+    "correct": "Type parameter",
+    "explanation": "'typename' declares that T is a type parameter for the template.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h8",
+    "topic": "Constexpr",
+    "question": "Which is true about 'constexpr' functions in C++?",
+    "options": ["Always evaluated at runtime", "Can be evaluated at compile time when given constant inputs", "Cannot return non-trivial types", "Are deprecated"],
+    "correct": "Can be evaluated at compile time when given constant inputs",
+    "explanation": "constexpr functions may be evaluated at compile time if called with constant expressions.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h9",
+    "topic": "Type Deduction",
+    "question": "What type does 'auto' deduce for 'const int&' initializer?",
+    "options": ["int", "const int&", "int&", "const int"],
+    "correct": "int",
+    "explanation": "When 'auto' deduces from 'const int&', top-level cv and reference are dropped: it becomes 'int'.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h10",
+    "topic": "Lambda",
+    "question": "Which capture clause makes a lambda capture all local variables by reference?",
+    "options": ["[=]", "[&]", "[this]", "[&=]"],
+    "correct": "[&]",
+    "explanation": "[&] captures all automatic variables used in the lambda by reference.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h11",
+    "topic": "Overloading",
+    "question": "Which of the following can be used to overload a function?",
+    "options": ["Return type only", "Parameter types", "Function body only", "Parameter names"],
+    "correct": "Parameter types",
+    "explanation": "Function overloading requires differing parameter type/signature; return type alone is insufficient.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h12",
+    "topic": "Inheritance",
+    "question": "Which C++ feature prevents slicing when assigning derived objects to base objects?",
+    "options": ["Virtual functions and pointers/references", "Multiple inheritance", "Friend functions", "Static casting"],
+    "correct": "Virtual functions and pointers/references",
+    "explanation": "Using pointers/references preserves polymorphic behavior; slicing occurs when using base objects directly.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h13",
+    "topic": "RTTI",
+    "question": "Which operator provides runtime type information and requires at least one polymorphic type?",
+    "options": ["typeid", "sizeof", "dynamic_cast", "reinterpret_cast"],
+    "correct": "typeid",
+    "explanation": "typeid yields type_info; for polymorphic types it allows runtime info. dynamic_cast also uses RTTI but returns pointer/reference conversions.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h14",
+    "topic": "dynamic_cast",
+    "question": "What does 'dynamic_cast' return when an invalid downcast of pointer type fails?",
+    "options": ["Throws exception", "Returns nullptr", "Returns garbage", "Returns reference to base"],
+    "correct": "Returns nullptr",
+    "explanation": "dynamic_cast on pointers returns nullptr on failure; on references it throws bad_cast.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h15",
+    "topic": "Order of Destruction",
+    "question": "In what order are local objects destroyed when leaving a scope?",
+    "options": ["First created, first destroyed", "Last created, first destroyed", "Random order", "Alphabetical by name"],
+    "correct": "Last created, first destroyed",
+    "explanation": "Local (automatic) objects are destroyed in reverse order of construction (LIFO).",
+    "points": 5
+  },
+  {
+    "id": "cpp_h16",
+    "topic": "Operator Overloading",
+    "question": "Which operator must be a non-member function if you want symmetric implicit conversions for the left-hand operand?",
+    "options": ["operator+", "operator=", "operator[]", "operator->"],
+    "correct": "operator+",
+    "explanation": "Binary arithmetic operators often should be non-member to allow implicit conversions on both operands.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h17",
+    "topic": "Move Assignment",
+    "question": "Which signature represents a move-assignment operator?",
+    "options": ["T& operator=(const T&)", "T operator=(T&&)", "T& operator=(T&&)", "void operator=(T&&)"],
+    "correct": "T& operator=(T&&)",
+    "explanation": "Move assignment typically returns T& and takes an rvalue reference T&&.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h18",
+    "topic": "Inline",
+    "question": "What does the 'inline' keyword primarily affect in modern C++?",
+    "options": ["Instructs compiler to inline function", "Allows multiple definitions across translation units", "Makes function static", "Prevents inlining"],
+    "correct": "Allows multiple definitions across translation units",
+    "explanation": "Besides inlining hint, 'inline' permits defining the function in header included in multiple translation units.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h19",
+    "topic": "Namespacing",
+    "question": "Which keyword brings all names from a namespace into current scope (not recommended globally)?",
+    "options": ["using", "import", "namespace", "include"],
+    "correct": "using",
+    "explanation": "using namespace std; brings names into scope; 'using' with namespace is the form (not recommended at global scope).",
+    "points": 5
+  },
+  {
+    "id": "cpp_h20",
+    "topic": "Explicit",
+    "question": "What does the 'explicit' keyword prevent for constructors?",
+    "options": ["Default construction", "Copy construction", "Implicit conversions", "Overloading"],
+    "correct": "Implicit conversions",
+    "explanation": "explicit prevents single-argument constructors from being used for implicit conversions.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h21",
+    "topic": "Bitfields",
+    "question": "Which is a correct statement about bitfields in C++ structs?",
+    "options": ["They always align to byte boundaries", "They let you pack small integers into limited bits", "They are dynamically sized", "They store pointers efficiently"],
+    "correct": "They let you pack small integers into limited bits",
+    "explanation": "Bitfields allow specifying number of bits for integral members to pack data, with implementation-defined layout.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h22",
+    "topic": "Volatile",
+    "question": "What is the primary use of the 'volatile' qualifier?",
+    "options": ["Optimization hint for compiler", "Indicates variable may change unexpectedly (e.g., hardware)", "Thread synchronization", "Marks pointer ownership"],
+    "correct": "Indicates variable may change unexpectedly (e.g., hardware)",
+    "explanation": "volatile prevents certain optimizations because the value may change outside program flow (hardware or signal handlers).",
+    "points": 5
+  },
+  {
+    "id": "cpp_h23",
+    "topic": "decltype",
+    "question": "What does 'decltype(expr)' yield?",
+    "options": ["Always the type int", "The type of expr without evaluating it", "The size in bytes of expr", "A runtime type id"],
+    "correct": "The type of expr without evaluating it",
+    "explanation": "decltype returns the type of the expression, and in many cases does not evaluate the expression.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h24",
+    "topic": "constexpr vs const",
+    "question": "Which statement is true: 'constexpr' vs 'const'?",
+    "options": ["constexpr implies compile-time constant when possible; const is runtime-constant", "const implies compile-time constant", "They are identical", "constexpr is deprecated"],
+    "correct": "constexpr implies compile-time constant when possible; const is runtime-constant",
+    "explanation": "constexpr requests compile-time evaluation; const only prevents modification but may be runtime value.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h25",
+    "topic": "SFINAE",
+    "question": "What does SFINAE stand for in template metaprogramming?",
+    "options": ["Substitution Failure Is Not An Error", "Simple Function Is Not Allowed", "Static Function Inactive Non-Abstract", "Some Feature Is Not Enabled"],
+    "correct": "Substitution Failure Is Not An Error",
+    "explanation": "SFINAE allows template overload resolution to skip invalid substitutions instead of failing compilation.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h26",
+    "topic": "std::move",
+    "question": "What does std::move do?",
+    "options": ["Move object memory physically", "Cast to rvalue reference to enable move semantics", "Delete object", "Copy object safely"],
+    "correct": "Cast to rvalue reference to enable move semantics",
+    "explanation": "std::move performs a static_cast to an rvalue reference, enabling moves (it does not move by itself).",
+    "points": 5
+  },
+  {
+    "id": "cpp_h27",
+    "topic": "constexpr Containers",
+    "question": "From C++20, which of the following became usable in constexpr contexts?",
+    "options": ["std::vector (fully modifiable)", "dynamic allocation anywhere", "std::string (some operations)", "Threads"],
+    "correct": "std::string (some operations)",
+    "explanation": "C++20 extended constexpr to many library types; std::string gained more constexpr support but constraints apply.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h28",
+    "topic": "ABI",
+    "question": "What does ABI stand for and why is it important?",
+    "options": ["Abstract Binary Interface - for encryption", "Application Binary Interface - for binary compatibility", "Advanced Build Info - for compilation flags", "Application Build Index - for versioning"],
+    "correct": "Application Binary Interface - for binary compatibility",
+    "explanation": "ABI defines low-level calling conventions and binary compatibility between compiled code modules.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h29",
+    "topic": "std::optional",
+    "question": "Which header provides std::optional and what is it used for?",
+    "options": ["<optional>, holds an optional value that may be absent", "<maybe>, alternative to pointer", "<variant>, type-safe union", "<utility>, pairing values"],
+    "correct": "<optional>, holds an optional value that may be absent",
+    "explanation": "std::optional<T> represents either a value of type T or no value (std::nullopt).",
+    "points": 5
+  },
+  {
+    "id": "cpp_h30",
+    "topic": "std::variant",
+    "question": "What is std::variant used for?",
+    "options": ["Type-safe union of alternative types", "Dynamic polymorphism", "Smart pointer management", "Template specialization"],
+    "correct": "Type-safe union of alternative types",
+    "explanation": "std::variant<Ts...> holds one of the specified types safely with visitation support.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h31",
+    "topic": "Friend",
+    "question": "What does declaring a 'friend' function/class allow?",
+    "options": ["External API only", "Access to private/protected members", "Inlines every method", "Prevents inheritance"],
+    "correct": "Access to private/protected members",
+    "explanation": "friend grants access to otherwise inaccessible members; it breaks encapsulation intentionally.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h32",
+    "topic": "Order of Evaluation",
+    "question": "Which C++ standard clarified the order of evaluation of function arguments (reducing undefined behavior)?",
+    "options": ["C++11", "C++17", "C++03", "C++98"],
+    "correct": "C++17",
+    "explanation": "C++17 introduced stricter sequencing rules that clarified evaluation order in many cases.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h33",
+    "topic": "Memory Model",
+    "question": "What does the C++ memory model define primarily?",
+    "options": ["How memory is allocated on disk", "How multithreaded operations interact and visibility of modifications", "Pointer arithmetic rules only", "File I/O ordering"],
+    "correct": "How multithreaded operations interact and visibility of modifications",
+    "explanation": "The memory model defines synchronization, atomic operations, and ordering guarantees across threads.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h34",
+    "topic": "Atomic",
+    "question": "Which header provides std::atomic and what is it for?",
+    "options": ["<thread>, for thread creation", "<atomic>, for lock-free atomic operations", "<mutex>, for locks", "<future>, for async results"],
+    "correct": "<atomic>, for lock-free atomic operations",
+    "explanation": "std::atomic<T> provides atomic operations on shared variables to avoid data races without mutexes.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h35",
+    "topic": "std::async",
+    "question": "What does std::async do by default when called with launch::async?",
+    "options": ["Runs task synchronously", "Runs task asynchronously in a new thread", "Queues task for later", "Calls function pointer only"],
+    "correct": "Runs task asynchronously in a new thread",
+    "explanation": "std::async with launch::async creates a new thread to execute the task concurrently.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h36",
+    "topic": "Binding",
+    "question": "What is the effect of 'std::bind'?",
+    "options": ["Binds variable to memory location", "Creates a callable by binding arguments to a function", "Locks a mutex", "Performs type binding at compile time"],
+    "correct": "Creates a callable by binding arguments to a function",
+    "explanation": "std::bind returns a function object with some arguments pre-bound; often replaced by lambdas.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h37",
+    "topic": "RAII",
+    "question": "What does RAII stand for and why is it useful?",
+    "options": ["Resource Acquisition Is Initialization - manages resources via constructors/destructors", "Random Access Is Important - for containers", "Reduce Allocation In Iteration - optimization", "Runtime Allocation Is Immutable - memory rule"],
+    "correct": "Resource Acquisition Is Initialization - manages resources via constructors/destructors",
+    "explanation": "RAII ties resource lifetime to object lifetime to ensure deterministic release in destructors.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h38",
+    "topic": "Undefined Behavior",
+    "question": "Which of these is undefined behavior in C++?",
+    "options": ["Accessing array within bounds", "Dereferencing null pointer", "Using references properly", "Returning local static variable"],
+    "correct": "Dereferencing null pointer",
+    "explanation": "Dereferencing a null pointer is undefined behavior and must be avoided.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h39",
+    "topic": "Templates SFINAE",
+    "question": "Which technique uses the principle 'Substitution Failure Is Not An Error' to enable/discard overloads?",
+    "options": ["SFINAE", "RAII", "CRTP", "POD"],
+    "correct": "SFINAE",
+    "explanation": "SFINAE allows templates to be excluded from overload resolution if substitution fails.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h40",
+    "topic": "Curiously Recurring Template Pattern",
+    "question": "What does CRTP (Curiously Recurring Template Pattern) enable?",
+    "options": ["Runtime polymorphism", "Static polymorphism and compile-time interfaces", "Garbage collection", "Dynamic cast implementation"],
+    "correct": "Static polymorphism and compile-time interfaces",
+    "explanation": "CRTP uses templates to achieve polymorphic-like behavior at compile time without virtual functions.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h41",
+    "topic": "Iterator invalidation",
+    "question": "Which container operation can invalidate iterators to its elements (commonly)?",
+    "options": ["std::vector::push_back (when capacity changes)", "std::array::at", "std::map::find", "std::string::c_str"],
+    "correct": "std::vector::push_back (when capacity changes)",
+    "explanation": "When vector reallocates, existing iterators/pointers are invalidated; other containers have different rules.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h42",
+    "topic": "std::function",
+    "question": "What is std::function used for?",
+    "options": ["Type erasure for callable objects", "Compile-time function selection", "Inline assembly", "Object file linking"],
+    "correct": "Type erasure for callable objects",
+    "explanation": "std::function stores any callable target with a specified signature via type erasure.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h43",
+    "topic": "Placement new",
+    "question": "What does placement new do?",
+    "options": ["Allocates memory from heap", "Constructs object at provided memory address", "Deletes object", "Moves object to new location"],
+    "correct": "Constructs object at provided memory address",
+    "explanation": "Placement new constructs an object in pre-allocated memory without allocating storage.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h44",
+    "topic": "Undefined Behavior",
+    "question": "Modifying the same scalar object in two threads without synchronization results in?",
+    "options": ["Safe behavior", "Data race and undefined behavior", "Guaranteed latest value", "Undefined only on Windows"],
+    "correct": "Data race and undefined behavior",
+    "explanation": "Concurrent unsynchronized writes (or read/write) cause data races and undefined behavior.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h45",
+    "topic": "constexpr if",
+    "question": "What advantage does 'if constexpr' provide over regular 'if' in templates?",
+    "options": ["Runtime branching only", "Compile-time branching and SFINAE-friendly code paths", "Faster execution always", "Removes need for templates"],
+    "correct": "Compile-time branching and SFINAE-friendly code paths",
+    "explanation": "if constexpr allows compile-time selection of code paths, removing ill-formed branches.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h46",
+    "topic": "Aggregation",
+    "question": "Which C++ aggregate initialization is allowed (aggregate type)?",
+    "options": ["Class with private members and user constructor", "POD-like structs with public data members and no user constructors", "Classes with virtual functions", "Classes with private base classes"],
+    "correct": "POD-like structs with public data members and no user constructors",
+    "explanation": "Aggregates are types with no user-declared constructors, no private/protected non-static data, etc., and support brace init.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h47",
+    "topic": "std::span",
+    "question": "What is std::span primarily used for?",
+    "options": ["Owning dynamic array", "Non-owning view over contiguous sequence", "Thread synchronization", "I/O streaming"],
+    "correct": "Non-owning view over contiguous sequence",
+    "explanation": "std::span is a lightweight view over contiguous memory (array, vector) without owning it.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h48",
+    "topic": "Virtual destructor",
+    "question": "Why should a base class have a virtual destructor when used polymorphically?",
+    "options": ["To speed up deletion", "To ensure derived destructors run on delete through base pointer", "To prevent copying", "To allow static allocation"],
+    "correct": "To ensure derived destructors run on delete through base pointer",
+    "explanation": "Deleting derived object via base pointer requires virtual destructor to properly call derived destructor.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h49",
+    "topic": "Return Value Optimization",
+    "question": "What does RVO (Return Value Optimization) do?",
+    "options": ["Prevents return values", "Elides copy/move when returning local objects", "Optimizes recursion", "Inlines functions"],
+    "correct": "Elides copy/move when returning local objects",
+    "explanation": "RVO avoids unnecessary copies/moves by constructing return value in caller-provided storage.",
+    "points": 5
+  },
+  {
+    "id": "cpp_h50",
+    "topic": "Template specialization",
+    "question": "What is explicit full specialization in templates?",
+    "options": ["Providing a template with all parameters specified for a particular type", "Using typename to specify parameter", "Overloading templates", "Instantiating templates at runtime"],
+    "correct": "Providing a template with all parameters specified for a particular type",
+    "explanation": "Full specialization defines a specific implementation of a template for particular template arguments.",
+    "points": 5
+  }
+]
+

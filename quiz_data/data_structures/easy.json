@@ -1,0 +1,463 @@
+[
+  {
+    "id": "ds_e1",
+    "topic": "Arrays",
+    "question": "Which data structure stores elements in contiguous memory?",
+    "options": ["Array", "Linked List", "Stack", "Queue"],
+    "correct": "Array",
+    "explanation": "Arrays store elements in consecutive memory locations.",
+    "points": 1
+  },
+  {
+    "id": "ds_e2",
+    "topic": "Stacks",
+    "question": "Which operation inserts an element in a stack?",
+    "options": ["enqueue", "append", "push", "add"],
+    "correct": "push",
+    "explanation": "Push is used to insert an element into a stack.",
+    "points": 1
+  },
+  {
+    "id": "ds_e3",
+    "topic": "Stacks",
+    "question": "Which operation removes the top element of a stack?",
+    "options": ["remove", "pop", "delete", "extract"],
+    "correct": "pop",
+    "explanation": "Pop removes the topmost element.",
+    "points": 1
+  },
+  {
+    "id": "ds_e4",
+    "topic": "Queues",
+    "question": "Which operation removes an element from a queue?",
+    "options": ["push", "pop", "dequeue", "delete"],
+    "correct": "dequeue",
+    "explanation": "Dequeue removes the front element in a queue.",
+    "points": 1
+  },
+  {
+    "id": "ds_e5",
+    "topic": "Queues",
+    "question": "Which data structure follows FIFO?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "correct": "Queue",
+    "explanation": "Queue follows First-In-First-Out.",
+    "points": 1
+  },
+  {
+    "id": "ds_e6",
+    "topic": "Stacks",
+    "question": "Which data structure follows LIFO?",
+    "options": ["Queue", "Stack", "Array", "Tree"],
+    "correct": "Stack",
+    "explanation": "Stack follows Last-In-First-Out.",
+    "points": 1
+  },
+  {
+    "id": "ds_e7",
+    "topic": "Arrays",
+    "question": "What is the first index of an array in most languages?",
+    "options": ["1", "0", "-1", "Depends on compiler"],
+    "correct": "0",
+    "explanation": "Array indexing starts from 0.",
+    "points": 1
+  },
+  {
+    "id": "ds_e8",
+    "topic": "Linked List",
+    "question": "What does a linked list node contain?",
+    "options": ["Only data", "Only address", "Data and pointer", "Just pointer"],
+    "correct": "Data and pointer",
+    "explanation": "Node = data + address of next node.",
+    "points": 1
+  },
+  {
+    "id": "ds_e9",
+    "topic": "Linked List",
+    "question": "Which linked list allows traversal in both directions?",
+    "options": ["Singly Linked List", "Doubly Linked List", "Circular Linked List", "Array List"],
+    "correct": "Doubly Linked List",
+    "explanation": "DLL has both next and previous pointers.",
+    "points": 1
+  },
+  {
+    "id": "ds_e10",
+    "topic": "Trees",
+    "question": "What is the topmost node in a tree called?",
+    "options": ["Leaf", "Parent", "Root", "Head"],
+    "correct": "Root",
+    "explanation": "Root is the starting node of a tree.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e11",
+    "topic": "Trees",
+    "question": "Nodes with no children are called?",
+    "options": ["Root", "Leaf", "Parent", "Child"],
+    "correct": "Leaf",
+    "explanation": "Leaf nodes have no outgoing edges.",
+    "points": 1
+  },
+  {
+    "id": "ds_e12",
+    "topic": "Graphs",
+    "question": "A graph with no cycles is called?",
+    "options": ["Cyclic", "Acyclic", "Connected", "Directed"],
+    "correct": "Acyclic",
+    "explanation": "Acyclic graphs do not contain cycles.",
+    "points": 1
+  },
+  {
+    "id": "ds_e13",
+    "topic": "Graphs",
+    "question": "DAG stands for?",
+    "options": ["Directed Acyclic Graph", "Data Arrangement Graph", "Dual Access Graph", "Dynamic Array Graph"],
+    "correct": "Directed Acyclic Graph",
+    "explanation": "DAG has directed edges and no cycles.",
+    "points": 1
+  },
+  {
+    "id": "ds_e14",
+    "topic": "Searching",
+    "question": "Binary search works only on?",
+    "options": ["Unsorted array", "Sorted array", "Linked list", "Graph"],
+    "correct": "Sorted array",
+    "explanation": "Binary search requires sorted order.",
+    "points": 1
+  },
+  {
+    "id": "ds_e15",
+    "topic": "Sorting",
+    "question": "Which sorting algorithm is the fastest on average?",
+    "options": ["Bubble sort", "Insertion sort", "Merge sort", "Counting sort"],
+    "correct": "Merge sort",
+    "explanation": "Merge sort is O(n log n).",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e16",
+    "topic": "Sorting",
+    "question": "Bubble sort complexity is?",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+    "correct": "O(n²)",
+    "explanation": "Bubble sort uses nested loops.",
+    "points": 1
+  },
+  {
+    "id": "ds_e17",
+    "topic": "Hashing",
+    "question": "What is used to compute hash values?",
+    "options": ["Hash function", "Queue", "Tree", "Pointer"],
+    "correct": "Hash function",
+    "explanation": "Hash function converts key → index.",
+    "points": 1
+  },
+  {
+    "id": "ds_e18",
+    "topic": "Hashing",
+    "question": "Collision in hashing is when?",
+    "options": ["Table is empty", "Two keys map to same index", "Key deleted", "Hash is large"],
+    "correct": "Two keys map to same index",
+    "explanation": "This is called a collision.",
+    "points": 1
+  },
+  {
+    "id": "ds_e19",
+    "topic": "Recursion",
+    "question": "Base case in recursion is?",
+    "options": ["Final condition", "Loop start", "Stack value", "Array index"],
+    "correct": "Final condition",
+    "explanation": "Base case ends recursion.",
+    "points": 1
+  },
+  {
+    "id": "ds_e20",
+    "topic": "Recursion",
+    "question": "Recursion uses which memory?",
+    "options": ["Heap", "Stack", "Queue", "Cache"],
+    "correct": "Stack",
+    "explanation": "Each recursive call is pushed to stack.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e21",
+    "topic": "Arrays",
+    "question": "Accessing an array element by index is?",
+    "options": ["O(n)", "O(log n)", "O(1)", "O(n²)"],
+    "correct": "O(1)",
+    "explanation": "Direct indexing gives constant time.",
+    "points": 1
+  },
+  {
+    "id": "ds_e22",
+    "topic": "Linked List",
+    "question": "Searching in a linked list takes?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+    "correct": "O(n)",
+    "explanation": "Traversal required.",
+    "points": 1
+  },
+  {
+    "id": "ds_e23",
+    "topic": "Trees",
+    "question": "Height of a single-node tree is?",
+    "options": ["-1", "0", "1", "2"],
+    "correct": "0",
+    "explanation": "Root alone has height 0.",
+    "points": 1
+  },
+  {
+    "id": "ds_e24",
+    "topic": "BST",
+    "question": "Left child of BST contains?",
+    "options": ["Greater keys", "Smaller keys", "Equal keys", "Random keys"],
+    "correct": "Smaller keys",
+    "explanation": "By definition of BST.",
+    "points": 1
+  },
+  {
+    "id": "ds_e25",
+    "topic": "BST",
+    "question": "Right child of BST contains?",
+    "options": ["Smaller keys", "Greater keys", "Leaf nodes", "No nodes"],
+    "correct": "Greater keys",
+    "explanation": "Right subtree stores larger elements.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e26",
+    "topic": "Queues",
+    "question": "Which queue allows circular movement?",
+    "options": ["Simple queue", "Circular queue", "Priority queue", "Deque"],
+    "correct": "Circular queue",
+    "explanation": "Circular queue connects rear to front.",
+    "points": 1
+  },
+  {
+    "id": "ds_e27",
+    "topic": "Deque",
+    "question": "Deque stands for?",
+    "options": ["Dual queue", "Double-ended queue", "Data queue", "Dynamic enqueue"],
+    "correct": "Double-ended queue",
+    "explanation": "Deque supports insertion/removal at both ends.",
+    "points": 1
+  },
+  {
+    "id": "ds_e28",
+    "topic": "Trees",
+    "question": "Binary tree can have max how many children?",
+    "options": ["1", "2", "3", "Unlimited"],
+    "correct": "2",
+    "explanation": "Binary → two children max.",
+    "points": 1
+  },
+  {
+    "id": "ds_e29",
+    "topic": "Graphs",
+    "question": "Which traversal uses a queue?",
+    "options": ["DFS", "BFS", "Inorder", "Postorder"],
+    "correct": "BFS",
+    "explanation": "BFS uses a queue.",
+    "points": 1
+  },
+  {
+    "id": "ds_e30",
+    "topic": "Graphs",
+    "question": "Which traversal uses a stack?",
+    "options": ["BFS", "DFS", "Level order", "Topological"],
+    "correct": "DFS",
+    "explanation": "DFS uses stack or recursion.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e31",
+    "topic": "Hashing",
+    "question": "Which method handles collisions?",
+    "options": ["Linear probing", "Binary search", "DFS", "Stacking"],
+    "correct": "Linear probing",
+    "explanation": "Collision resolution technique.",
+    "points": 1
+  },
+  {
+    "id": "ds_e32",
+    "topic": "Hashing",
+    "question": "Load factor means?",
+    "options": ["Keys / Table size", "Size / Keys", "Keys × Index", "Memory used"],
+    "correct": "Keys / Table size",
+    "explanation": "Measures how full table is.",
+    "points": 1
+  },
+  {
+    "id": "ds_e33",
+    "topic": "Arrays",
+    "question": "To access A[i], what is required?",
+    "options": ["Pointer", "Address calculation", "Queue", "Stack"],
+    "correct": "Address calculation",
+    "explanation": "Array index calculates memory address.",
+    "points": 1
+  },
+  {
+    "id": "ds_e34",
+    "topic": "Linked List",
+    "question": "Which list connects last node back to first?",
+    "options": ["Singly", "Circular", "Doubly", "Array"],
+    "correct": "Circular",
+    "explanation": "Circular list ends at head.",
+    "points": 1
+  },
+  {
+    "id": "ds_e35",
+    "topic": "Queues",
+    "question": "Front element of queue is removed by?",
+    "options": ["enqueue", "push", "pop", "dequeue"],
+    "correct": "dequeue",
+    "explanation": "Dequeue removes front.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e36",
+    "topic": "Trees",
+    "question": "Which traversal visits Left-Root-Right?",
+    "options": ["Inorder", "Preorder", "Postorder", "Levelorder"],
+    "correct": "Inorder",
+    "explanation": "LNR means inorder.",
+    "points": 1
+  },
+  {
+    "id": "ds_e37",
+    "topic": "Trees",
+    "question": "Which traversal visits Root-Left-Right?",
+    "options": ["Postorder", "Preorder", "Inorder", "BFS"],
+    "correct": "Preorder",
+    "explanation": "Root first → preorder.",
+    "points": 1
+  },
+  {
+    "id": "ds_e38",
+    "topic": "Trees",
+    "question": "Which traversal visits Left-Right-Root?",
+    "options": ["Inorder", "Postorder", "Preorder", "Levelorder"],
+    "correct": "Postorder",
+    "explanation": "LRN means postorder.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e39",
+    "topic": "Recursion",
+    "question": "Recursion ends when?",
+    "options": ["Stack overflows", "Base case true", "Loop ends", "Array full"],
+    "correct": "Base case true",
+    "explanation": "Base case stops recursion.",
+    "points": 1
+  },
+  {
+    "id": "ds_e40",
+    "topic": "Complexity",
+    "question": "Which notation describes worst-case?",
+    "options": ["Big-O", "Omega", "Theta", "Lambda"],
+    "correct": "Big-O",
+    "explanation": "O() describes upper bound.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e41",
+    "topic": "Graphs",
+    "question": "Edges represent?",
+    "options": ["Nodes", "Connections", "Levels", "Sizes"],
+    "correct": "Connections",
+    "explanation": "Edges connect vertices.",
+    "points": 1
+  },
+  {
+    "id": "ds_e42",
+    "topic": "Graphs",
+    "question": "Graph with all edges equal is?",
+    "options": ["Weighted", "Unweighted", "Directed", "Tree"],
+    "correct": "Unweighted",
+    "explanation": "Unweighted means equal cost.",
+    "points": 1
+  },
+  {
+    "id": "ds_e43",
+    "topic": "Arrays",
+    "question": "Array size is?",
+    "options": ["Fixed", "Growable", "Dynamic", "Unknown"],
+    "correct": "Fixed",
+    "explanation": "Arrays cannot grow dynamically.",
+    "points": 1
+  },
+  {
+    "id": "ds_e44",
+    "topic": "Linked List",
+    "question": "Linked lists are good for?",
+    "options": ["Fast indexing", "Fast insertion", "Fast deletion", "Both insertion & deletion"],
+    "correct": "Both insertion & deletion",
+    "explanation": "Insertion and deletion are O(1).",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e45",
+    "topic": "Sorting",
+    "question": "Which algorithm always picks smallest element first?",
+    "options": ["Insertion sort", "Selection sort", "Merge sort", "Heap sort"],
+    "correct": "Selection sort",
+    "explanation": "Selection sort selects the minimum.",
+    "points": 1
+  },
+  {
+    "id": "ds_e46",
+    "topic": "Sorting",
+    "question": "Which algorithm builds a sorted list by shifting?",
+    "options": ["Bubble sort", "Insertion sort", "Merge sort", "Quick sort"],
+    "correct": "Insertion sort",
+    "explanation": "Insertion sort inserts into correct position.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e47",
+    "topic": "Queues",
+    "question": "Priority queue removes?",
+    "options": ["First element", "Last element", "Lowest priority", "Highest priority"],
+    "correct": "Highest priority",
+    "explanation": "Priority queue returns max/min item.",
+    "points": 1
+  },
+  {
+    "id": "ds_e48",
+    "topic": "Graphs",
+    "question": "Which structure stores adjacency lists?",
+    "options": ["Array", "List", "Vector of vectors", "Tree"],
+    "correct": "Vector of vectors",
+    "explanation": "Most common adjacency list representation.",
+    "points": 1
+  },
+
+  {
+    "id": "ds_e49",
+    "topic": "Trees",
+    "question": "A tree with no nodes is?",
+    "options": ["Null", "Empty", "Leaf", "Binary"],
+    "correct": "Empty",
+    "explanation": "No nodes → empty tree.",
+    "points": 1
+  },
+  {
+    "id": "ds_e50",
+    "topic": "Trees",
+    "question": "How many children does a binary search tree node have?",
+    "options": ["At most 2", "At least 2", "Exactly 2", "Unlimited"],
+    "correct": "At most 2",
+    "explanation": "BST is a binary tree.",
+    "points": 1
+  }
+]

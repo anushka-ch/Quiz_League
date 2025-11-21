@@ -1,0 +1,440 @@
+[
+  {
+    "id": "ds_h3",
+    "topic": "Heaps",
+    "question": "What is the time complexity of inserting an element into a max-heap?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct": "O(log n)",
+    "explanation": "Insertion requires heapify-up which takes O(log n).",
+    "points": 5
+  },
+  {
+    "id": "ds_h4",
+    "topic": "Graphs",
+    "question": "Which algorithm detects a cycle in a directed graph?",
+    "options": ["Topological Sort", "Dijkstra", "Kruskal", "Floyd Warshall"],
+    "correct": "Topological Sort",
+    "explanation": "A DFS-based topological sort detects cycles when no valid ordering exists.",
+    "points": 5
+  },
+  {
+    "id": "ds_h5",
+    "topic": "Dynamic Programming",
+    "question": "Which technique avoids recomputation of overlapping subproblems?",
+    "options": ["Divide and Conquer", "Greedy", "Memoization", "Backtracking"],
+    "correct": "Memoization",
+    "explanation": "Memoization stores results of expensive function calls.",
+    "points": 5
+  },
+  {
+    "id": "ds_h6",
+    "topic": "Trees",
+    "question": "What is the height of a full binary tree with N internal nodes?",
+    "options": ["N", "log₂(N+1)", "2N", "√N"],
+    "correct": "log₂(N+1)",
+    "explanation": "A full binary tree is balanced, giving height log₂(n).",
+    "points": 5
+  },
+  {
+    "id": "ds_h7",
+    "topic": "Hashing",
+    "question": "Which collision resolution technique uses another hash function?",
+    "options": ["Chaining", "Linear Probing", "Quadratic Probing", "Double Hashing"],
+    "correct": "Double Hashing",
+    "explanation": "Double hashing applies a second hash to decide the step size.",
+    "points": 5
+  },
+  {
+    "id": "ds_h8",
+    "topic": "Graphs",
+    "question": "Which algorithm finds strongly connected components (SCCs)?",
+    "options": ["Kruskal", "Tarjan", "Prim", "Heap Sort"],
+    "correct": "Tarjan",
+    "explanation": "Tarjan's DFS-based algorithm efficiently finds SCCs.",
+    "points": 5
+  },
+  {
+    "id": "ds_h9",
+    "topic": "Advanced Stacks",
+    "question": "Which data structure supports O(1) min() along with push/pop?",
+    "options": ["Linked List", "Two-Stack Technique", "Min Stack", "Queue"],
+    "correct": "Min Stack",
+    "explanation": "A min-stack keeps a secondary stack of minimums.",
+    "points": 5
+  },
+  {
+    "id": "ds_h10",
+    "topic": "Binary Search Trees",
+    "question": "What is the predecessor of a node in a BST?",
+    "options": [
+      "The leftmost node in its right subtree",
+      "The rightmost node in its left subtree",
+      "The parent node",
+      "The root node"
+    ],
+    "correct": "The rightmost node in its left subtree",
+    "explanation": "Predecessor is the maximum value in the left subtree.",
+    "points": 5
+  },
+  {
+    "id": "ds_h11",
+    "topic": "Graphs",
+    "question": "Which algorithm is used to find cycles in an undirected graph?",
+    "options": ["Kruskal", "DFS", "Prim", "Dijkstra"],
+    "correct": "DFS",
+    "explanation": "DFS detects cycles by checking visited nodes that are not parents.",
+    "points": 5
+  },
+  {
+    "id": "ds_h12",
+    "topic": "Trees",
+    "question": "Which traversal gives nodes in sorted order for a BST?",
+    "options": ["Preorder", "Inorder", "Postorder", "Level order"],
+    "correct": "Inorder",
+    "explanation": "Inorder traversal of a BST returns sorted values.",
+    "points": 5
+  },
+  {
+    "id": "ds_h13",
+    "topic": "Tries",
+    "question": "What is the worst-case time complexity of searching a key in a trie?",
+    "options": ["O(n)", "O(log n)", "O(key length)", "O(1)"],
+    "correct": "O(key length)",
+    "explanation": "Tries match character-by-character along the string.",
+    "points": 5
+  },
+  {
+    "id": "ds_h14",
+    "topic": "Graphs",
+    "question": "Which algorithm checks if a graph is bipartite?",
+    "options": ["Kruskal", "DFS", "BFS coloring", "Floyd Warshall"],
+    "correct": "BFS coloring",
+    "explanation": "Using BFS with two-coloring detects bipartite graphs.",
+    "points": 5
+  },
+  {
+    "id": "ds_h15",
+    "topic": "DP",
+    "question": "Which technique is used to optimize DP when states depend only on the last column or row?",
+    "options": ["Binary lifting", "Greedy", "Space optimization", "Memoization"],
+    "correct": "Space optimization",
+    "explanation": "DP solutions can reuse previous results to reduce memory.",
+    "points": 5
+  },
+  {
+    "id": "ds_h16",
+    "topic": "Graphs",
+    "question": "Which algorithm is used to detect negative cycles?",
+    "options": ["Prim", "Bellman-Ford", "Kruskal", "DFS"],
+    "correct": "Bellman-Ford",
+    "explanation": "Bellman-Ford detects negative cycles by extra relaxation.",
+    "points": 5
+  },
+  {
+    "id": "ds_h17",
+    "topic": "Binary Trees",
+    "question": "What is the maximum number of nodes in a binary tree of height h?",
+    "options": ["2^h", "2^(h+1)-1", "h^2", "h!"],
+    "correct": "2^(h+1)-1",
+    "explanation": "A full binary tree has maximum nodes at each level.",
+    "points": 5
+  },
+  {
+    "id": "ds_h18",
+    "topic": "Hashing",
+    "question": "Which hashing method resolves collisions using linked lists?",
+    "options": ["Chaining", "Linear probing", "Quadratic probing", "Double hashing"],
+    "correct": "Chaining",
+    "explanation": "Chaining stores multiple keys using a linked list.",
+    "points": 5
+  },
+  {
+    "id": "ds_h19",
+    "topic": "Graphs",
+    "question": "Which algorithm finds Minimum Spanning Tree using a priority queue?",
+    "options": ["Kruskal", "Prim", "Dijkstra", "Bellman-Ford"],
+    "correct": "Prim",
+    "explanation": "Prim’s algorithm grows MST using a priority queue.",
+    "points": 5
+  },
+  {
+    "id": "ds_h20",
+    "topic": "Stacks",
+    "question": "Which algorithm uses a stack to evaluate expressions like '3 4 +'?",
+    "options": ["Prefix", "Postfix evaluation", "Infix parsing", "DFS"],
+    "correct": "Postfix evaluation",
+    "explanation": "Postfix expressions are evaluated using a stack.",
+    "points": 5
+  },
+  {
+    "id": "ds_h21",
+    "topic": "Linked Lists",
+    "question": "Which method detects a loop in a linked list?",
+    "options": ["Binary search", "Two-pointer method", "Stack", "Queue"],
+    "correct": "Two-pointer method",
+    "explanation": "Floyd’s cycle algorithm uses slow and fast pointers.",
+    "points": 5
+  },
+  {
+    "id": "ds_h22",
+    "topic": "Graphs",
+    "question": "Which algorithm finds articulation points?",
+    "options": ["Tarjan", "Kruskal", "Prim", "DFS"],
+    "correct": "Tarjan",
+    "explanation": "Tarjan's algorithm detects articulation points using DFS timestamps.",
+    "points": 5
+  },
+  {
+    "id": "ds_h23",
+    "topic": "Queues",
+    "question": "Which queue structure supports max and min in O(1)?",
+    "options": ["Circular queue", "Simple queue", "Deque", "Min-queue"],
+    "correct": "Deque",
+    "explanation": "A deque can track max/min using monotonic property.",
+    "points": 5
+  },
+  {
+    "id": "ds_h24",
+    "topic": "Trees",
+    "question": "Which traversal helps reconstruct a binary tree when combined with inorder?",
+    "options": ["Inorder", "Preorder", "Postorder", "Level order"],
+    "correct": "Preorder",
+    "explanation": "Inorder + preorder uniquely rebuilds a binary tree.",
+    "points": 5
+  },
+  {
+    "id": "ds_h25",
+    "topic": "Graphs",
+    "question": "Which algorithm finds all-pairs shortest paths?",
+    "options": ["Dijkstra", "Kruskal", "Bellman-Ford", "Floyd Warshall"],
+    "correct": "Floyd Warshall",
+    "explanation": "Floyd Warshall computes shortest distances between all nodes.",
+    "points": 5
+  },
+  {
+    "id": "ds_h26",
+    "topic": "Heaps",
+    "question": "What is the time complexity of building a heap using heapify?",
+    "options": ["O(n log n)", "O(log n)", "O(n)", "O(1)"],
+    "correct": "O(n)",
+    "explanation": "Bottom-up heap construction takes linear time.",
+    "points": 5
+  },
+  {
+    "id": "ds_h27",
+    "topic": "Graphs",
+    "question": "Which algorithm is used for topological sorting?",
+    "options": ["BFS/DFS", "Prim", "Kruskal", "Dijkstra"],
+    "correct": "BFS/DFS",
+    "explanation": "Both DFS and BFS (Kahn’s algorithm) perform topological sorting.",
+    "points": 5
+  },
+  {
+    "id": "ds_h28",
+    "topic": "Hashing",
+    "question": "Which hashing method keeps probing with increasing squared steps?",
+    "options": ["Linear probing", "Chaining", "Quadratic probing", "Double hashing"],
+    "correct": "Quadratic probing",
+    "explanation": "Quadratic probing uses 1², 2², 3²… steps.",
+    "points": 5
+  },
+  {
+    "id": "ds_h29",
+    "topic": "Bit Manipulation",
+    "question": "Which trick finds the only non-repeating element in an array?",
+    "options": ["XOR", "AND", "OR", "Shift"],
+    "correct": "XOR",
+    "explanation": "XOR cancels out duplicate values.",
+    "points": 5
+  },
+  {
+    "id": "ds_h30",
+    "topic": "Trees",
+    "question": "Which data structure stores keys in sorted order and is balanced?",
+    "options": ["Stack", "Queue", "AVL Tree", "Binary heap"],
+    "correct": "AVL Tree",
+    "explanation": "AVL trees maintain strict height balancing.",
+    "points": 5
+  },
+  {
+    "id": "ds_h31",
+    "topic": "Graphs",
+    "question": "Which algorithm finds a minimum cut in a graph?",
+    "options": ["Ford-Fulkerson", "Prim", "DFS", "Bellman-Ford"],
+    "correct": "Ford-Fulkerson",
+    "explanation": "Max-flow min-cut theorem uses Ford-Fulkerson.",
+    "points": 5
+  },
+  {
+    "id": "ds_h32",
+    "topic": "Trees",
+    "question": "Which tree keeps keys in sorted order and has multiple children?",
+    "options": ["Binary tree", "Trie", "B-Tree", "Heap"],
+    "correct": "B-Tree",
+    "explanation": "B-Trees are multi-way balanced search trees.",
+    "points": 5
+  },
+  {
+    "id": "ds_h33",
+    "topic": "DP",
+    "question": "Which problem is solved using Kadane’s algorithm?",
+    "options": ["LCS", "Subset sum", "Max subarray sum", "Knapsack"],
+    "correct": "Max subarray sum",
+    "explanation": "Kadane’s algorithm optimizes maximum subarray.",
+    "points": 5
+  },
+  {
+    "id": "ds_h34",
+    "topic": "Graphs",
+    "question": "Which algorithm detects bridges in a graph?",
+    "options": ["Tarjan", "Kruskal", "Prim", "Dijkstra"],
+    "correct": "Tarjan",
+    "explanation": "Tarjan’s low-link values detect graph bridges.",
+    "points": 5
+  },
+  {
+    "id": "ds_h35",
+    "topic": "Heaps",
+    "question": "Which heap allows merging two heaps efficiently?",
+    "options": ["Binary heap", "AVL tree", "Binomial heap", "Stack"],
+    "correct": "Binomial heap",
+    "explanation": "Binomial heaps support fast merging.",
+    "points": 5
+  },
+  {
+    "id": "ds_h36",
+    "topic": "Trees",
+    "question": "Which rotation fixes imbalance in AVL trees?",
+    "options": ["Left rotation", "Right rotation", "Both", "No rotation"],
+    "correct": "Both",
+    "explanation": "AVL uses LR, RL, LL, RR rotations.",
+    "points": 5
+  },
+  {
+    "id": "ds_h37",
+    "topic": "Graphs",
+    "question": "Which data structure is ideal for storing sparse graphs?",
+    "options": ["Adjacency matrix", "Adjacency list", "Tree", "Hashmap"],
+    "correct": "Adjacency list",
+    "explanation": "Adjacency lists save space for sparse graphs.",
+    "points": 5
+  },
+  {
+    "id": "ds_h38",
+    "topic": "Linked Lists",
+    "question": "Which technique reverses a linked list in place?",
+    "options": ["Two-pointer swap", "Recursive reverse", "Pointer re-linking", "Stack"],
+    "correct": "Pointer re-linking",
+    "explanation": "Reversing rewires next pointers.",
+    "points": 5
+  },
+  {
+    "id": "ds_h39",
+    "topic": "Trees",
+    "question": "What is the balance factor in AVL trees?",
+    "options": ["Height(left) - height(right)", "Nodes difference", "Sum of heights", "Level count"],
+    "correct": "Height(left) - height(right)",
+    "explanation": "AVL tree rebalance uses height difference.",
+    "points": 5
+  },
+  {
+    "id": "ds_h40",
+    "topic": "DP",
+    "question": "Which method solves the rod cutting problem?",
+    "options": ["Greedy", "Binary search", "DP", "Stack"],
+    "correct": "DP",
+    "explanation": "Rod cutting is a classic DP optimization problem.",
+    "points": 5
+  },
+  {
+    "id": "ds_h41",
+    "topic": "Graphs",
+    "question": "Which algorithm is used to detect strongly connected components?",
+    "options": ["Kruskal", "Kosaraju", "Prim", "Bellman-Ford"],
+    "correct": "Kosaraju",
+    "explanation": "Kosaraju uses two DFS passes to find SCCs.",
+    "points": 5
+  },
+  {
+    "id": "ds_h42",
+    "topic": "Heaps",
+    "question": "Deleting the max element from a max-heap takes how long?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct": "O(log n)",
+    "explanation": "Delete heap root and heapify-down takes log n.",
+    "points": 5
+  },
+  {
+    "id": "ds_h43",
+    "topic": "Trees",
+    "question": "Which algorithm converts a BST into a balanced BST?",
+    "options": ["DFS", "Rebuild using inorder", "Heapify", "Rotate Right"],
+    "correct": "Rebuild using inorder",
+    "explanation": "Inorder gives sorted list; rebuild gives balanced BST.",
+    "points": 5
+  },
+  {
+    "id": "ds_h44",
+    "topic": "Graphs",
+    "question": "Which algorithm is used for maximum bipartite matching?",
+    "options": ["Ford-Fulkerson", "Kruskal", "Floyd Warshall", "Prim"],
+    "correct": "Ford-Fulkerson",
+    "explanation": "Max-flow approach finds bipartite matching.",
+    "points": 5
+  },
+  {
+    "id": "ds_h45",
+    "topic": "Linked Lists",
+    "question": "Deleting a middle node requires what time complexity?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct": "O(1)",
+    "explanation": "Pointer adjustment deletes node in constant time.",
+    "points": 5
+  },
+  {
+    "id": "ds_h46",
+    "topic": "Tries",
+    "question": "Which application commonly uses tries?",
+    "options": ["Sorting numbers", "String search", "Compression", "Graph traversal"],
+    "correct": "String search",
+    "explanation": "Tries efficiently store and match words.",
+    "points": 5
+  },
+  {
+    "id": "ds_h47",
+    "topic": "DP",
+    "question": "Which technique reduces time for range sum queries?",
+    "options": ["Segment tree", "Binary search", "Hashing", "XOR"],
+    "correct": "Segment tree",
+    "explanation": "Segment trees allow fast range queries and updates.",
+    "points": 5
+  },
+  {
+    "id": "ds_h48",
+    "topic": "Graphs",
+    "question": "Which algorithm helps find Eulerian paths?",
+    "options": ["Hierholzer’s algorithm", "Dijkstra", "DFS", "Prim"],
+    "correct": "Hierholzer’s algorithm",
+    "explanation": "Hierholzer finds Euler circuits and paths.",
+    "points": 5
+  },
+  {
+    "id": "ds_h49",
+    "topic": "Binary Trees",
+    "question": "What is the diameter of a tree?",
+    "options": ["Longest root path", "Longest path between any two nodes", "Height", "Levels count"],
+    "correct": "Longest path between any two nodes",
+    "explanation": "Diameter measures farthest node-to-node distance.",
+    "points": 5
+  },
+  {
+    "id": "ds_h50",
+    "topic": "Graphs",
+    "question": "Which algorithm finds the shortest path in a DAG?",
+    "options": ["Topological DP", "Dijkstra", "Kruskal", "Prim"],
+    "correct": "Topological DP",
+    "explanation": "DAG shortest paths use topological ordering + DP.",
+    "points": 5
+  }
+]
+

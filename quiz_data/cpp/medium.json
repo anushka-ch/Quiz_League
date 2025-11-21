@@ -1,0 +1,483 @@
+[
+  {
+    "id": "cpp_m1",
+    "topic": "OOP",
+    "question": "Which OOP concept allows function overriding?",
+    "options": ["Encapsulation", "Abstraction", "Polymorphism", "Inheritance"],
+    "correct": "Polymorphism",
+    "explanation": "Polymorphism allows method overriding.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m2",
+    "topic": "Pointers",
+    "question": "What does the '&' symbol represent in C++?",
+    "options": ["Address-of operator", "Reference operator", "Bitwise AND", "None"],
+    "correct": "Address-of operator",
+    "explanation": "It is used to get the memory address of a variable.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m3",
+    "topic": "Classes",
+    "question": "Which keyword is used to define a class method outside the class?",
+    "options": ["external", "scope", "using", "::"],
+    "correct": "::",
+    "explanation": "The scope resolution operator :: is used to define functions outside the class.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m4",
+    "topic": "References",
+    "question": "Which statement about references is TRUE?",
+    "options": ["A reference can be reseated", "A reference must be initialized", "A reference stores a copy", "References are slower than pointers"],
+    "correct": "A reference must be initialized",
+    "explanation": "References must be bound at initialization and cannot be null or reseated.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m5",
+    "topic": "Functions",
+    "question": "Which keyword is used to create a function that cannot be overridden?",
+    "options": ["private", "final", "static", "sealed"],
+    "correct": "final",
+    "explanation": "The final keyword prevents further overriding.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m6",
+    "topic": "Inheritance",
+    "question": "What type of inheritance allows multiple base classes?",
+    "options": ["Single", "Multi-level", "Multiple", "Hierarchical"],
+    "correct": "Multiple",
+    "explanation": "Multiple inheritance allows a class to inherit from multiple base classes.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m7",
+    "topic": "Pointers",
+    "question": "What is the value of an uninitialized pointer?",
+    "options": ["0", "Garbage value", "NULL", "nullptr"],
+    "correct": "Garbage value",
+    "explanation": "Uninitialized pointers contain an unpredictable garbage address.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m8",
+    "topic": "Constructors",
+    "question": "What is a default constructor?",
+    "options": ["Constructor with arguments", "Constructor with no parameters", "Copying constructor", "Destructor"],
+    "correct": "Constructor with no parameters",
+    "explanation": "A default constructor takes no arguments.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m9",
+    "topic": "Destructors",
+    "question": "Which symbol is used before a class name to define a destructor?",
+    "options": ["~", "!", "@", "$"],
+    "correct": "~",
+    "explanation": "Destructors begin with the tilde symbol.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m10",
+    "topic": "Memory",
+    "question": "What is the purpose of 'delete[]'?",
+    "options": ["To delete objects", "To delete arrays allocated by new[]", "To free static memory", "To clear buffers"],
+    "correct": "To delete arrays allocated by new[]",
+    "explanation": "delete[] matches new[] for deallocating arrays.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m11",
+    "topic": "Operators",
+    "question": "Which operator cannot be overloaded?",
+    "options": ["+", "=", "::", "=="],
+    "correct": "::",
+    "explanation": "The scope resolution operator (::) cannot be overloaded.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m12",
+    "topic": "STL",
+    "question": "Which STL container stores key-value pairs?",
+    "options": ["vector", "map", "stack", "queue"],
+    "correct": "map",
+    "explanation": "std::map stores sorted key-value pairs.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m13",
+    "topic": "STL",
+    "question": "Which STL container allows push/pop from both ends?",
+    "options": ["vector", "deque", "list", "map"],
+    "correct": "deque",
+    "explanation": "std::deque supports fast insertion/removal at both ends.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m14",
+    "topic": "Overloading",
+    "question": "What is function overloading?",
+    "options": ["Same function name, different parameters", "Different return type only", "Same parameters", "Converting functions"],
+    "correct": "Same function name, different parameters",
+    "explanation": "Overloading allows multiple functions with same name but different signatures.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m15",
+    "topic": "Virtual",
+    "question": "What is a virtual function?",
+    "options": ["Function without body", "Function that cannot be overridden", "Function supporting runtime polymorphism", "Static function"],
+    "correct": "Function supporting runtime polymorphism",
+    "explanation": "Virtual functions enable overriding in derived classes.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m16",
+    "topic": "Templates",
+    "question": "Which keyword is used to define templates?",
+    "options": ["template", "generic", "typename", "auto"],
+    "correct": "template",
+    "explanation": "Templates begin with the template keyword.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m17",
+    "topic": "Casting",
+    "question": "Which cast is used for polymorphic downcasting?",
+    "options": ["static_cast", "dynamic_cast", "reinterpret_cast", "const_cast"],
+    "correct": "dynamic_cast",
+    "explanation": "dynamic_cast checks validity using RTTI.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m18",
+    "topic": "RTTI",
+    "question": "What does RTTI stand for?",
+    "options": ["Run Time Type Identification", "Real Time Type Input", "Run Time Template Info", "Random Type Table Info"],
+    "correct": "Run Time Type Identification",
+    "explanation": "RTTI provides runtime type information in C++.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m19",
+    "topic": "Strings",
+    "question": "Which function returns the length of a std::string?",
+    "options": ["count()", "size()", "capacity()", "length()"],
+    "correct": "size()",
+    "explanation": "size() and length() both work, but size() is more common.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m20",
+    "topic": "File Handling",
+    "question": "Which header is required for file operations?",
+    "options": ["<fstream>", "<iostream>", "<stdio.h>", "<file>"],
+    "correct": "<fstream>",
+    "explanation": "fstream handles input/output file streams.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m21",
+    "topic": "Memory",
+    "question": "Which memory is used for local variables?",
+    "options": ["Heap", "Stack", "Static", "Global"],
+    "correct": "Stack",
+    "explanation": "Local variables go on the stack.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m22",
+    "topic": "Loops",
+    "question": "Which loop guarantees at least one execution?",
+    "options": ["for", "while", "do-while", "range-for"],
+    "correct": "do-while",
+    "explanation": "do-while runs the body before checking condition.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m23",
+    "topic": "Arrays",
+    "question": "What is the index of the last element in an array of size n?",
+    "options": ["n", "n+1", "n-1", "0"],
+    "correct": "n-1",
+    "explanation": "Array indexing starts from 0.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m24",
+    "topic": "Functions",
+    "question": "Which keyword makes a variable retain value between calls?",
+    "options": ["const", "static", "volatile", "extern"],
+    "correct": "static",
+    "explanation": "static local variables retain their values.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m25",
+    "topic": "Operators",
+    "question": "Which operator accesses members of a pointer to an object?",
+    "options": [".", "->", "::", "&"],
+    "correct": "->",
+    "explanation": "Arrow operator dereferences pointer and accesses members.",
+    "points": 3
+  },
+  {
+    "id": "cpp_m26",
+    "topic": "Classes",
+    "question": "Which access specifier restricts access to only class members and friends?",
+    "options": ["public", "protected", "private", "static"],
+    "correct": "private",
+    "explanation": "private restricts members from outside access.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m27",
+    "topic": "OOP",
+    "question": "Which feature hides internal implementation details?",
+    "options": ["Encapsulation", "Abstraction", "Polymorphism", "Inheritance"],
+    "correct": "Encapsulation",
+    "explanation": "Encapsulation protects object internals.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m28",
+    "topic": "Abstraction",
+    "question": "Which keyword supports abstract classes?",
+    "options": ["abstract", "virtual", "override", "default"],
+    "correct": "virtual",
+    "explanation": "A class with at least one pure virtual function becomes abstract.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m29",
+    "topic": "Inheritance",
+    "question": "Which access mode keeps base members private in derived class?",
+    "options": ["public", "protected", "private", "virtual"],
+    "correct": "private",
+    "explanation": "Private inheritance hides base members.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m30",
+    "topic": "Pointers",
+    "question": "What happens if you dereference a null pointer?",
+    "options": ["Program runs normally", "Undefined behavior", "Returns 0", "Throws exception"],
+    "correct": "Undefined behavior",
+    "explanation": "Dereferencing null is undefined.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m31",
+    "topic": "Templates",
+    "question": "What is a template specialization?",
+    "options": ["A duplicate template", "A customized version of a template", "A deleted template", "Unused template"],
+    "correct": "A customized version of a template",
+    "explanation": "Specialization customizes a template for a specific type.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m32",
+    "topic": "STL Algorithms",
+    "question": "Which header contains 'sort()'?",
+    "options": ["<algorithm>", "<utility>", "<vector>", "<stdlib.h>"],
+    "correct": "<algorithm>",
+    "explanation": "sort() is in <algorithm>.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m33",
+    "topic": "Errors",
+    "question": "What type of error is division by zero?",
+    "options": ["Compile-time", "Run-time", "Logical", "Semantic"],
+    "correct": "Run-time",
+    "explanation": "Division by zero is detected only at runtime.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m34",
+    "topic": "Functions",
+    "question": "What does 'inline' suggest?",
+    "options": ["Force inline", "Request inline", "Mark as static", "Reduce memory"],
+    "correct": "Request inline",
+    "explanation": "inline is only a suggestion to the compiler.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m35",
+    "topic": "Memory",
+    "question": "Which operator allocates memory dynamically?",
+    "options": ["malloc", "new", "calloc", "alloc"],
+    "correct": "new",
+    "explanation": "new allocates dynamic memory.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m36",
+    "topic": "Macros",
+    "question": "What does #define create?",
+    "options": ["Template", "Constant or macro", "Class", "Function"],
+    "correct": "Constant or macro",
+    "explanation": "#define defines macro constants.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m37",
+    "topic": "Strings",
+    "question": "Which method removes all characters from a string?",
+    "options": ["drop()", "remove()", "clear()", "erase_all()"],
+    "correct": "clear()",
+    "explanation": "clear() empties the string.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m38",
+    "topic": "Exception",
+    "question": "Which keyword catches exceptions?",
+    "options": ["try", "throw", "catch", "except"],
+    "correct": "catch",
+    "explanation": "catch handles thrown exceptions.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m39",
+    "topic": "File Handling",
+    "question": "Which class is used for writing to files?",
+    "options": ["ifstream", "ofstream", "fstream", "file"],
+    "correct": "ofstream",
+    "explanation": "ofstream writes to files.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m40",
+    "topic": "File Handling",
+    "question": "Which function checks end-of-file?",
+    "options": ["end()", "stop()", "fail()", "eof()"],
+    "correct": "eof()",
+    "explanation": "eof() checks if end-of-file is reached.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m41",
+    "topic": "Memory",
+    "question": "new returns:",
+    "options": ["Address", "Value", "Pointer to null", "Reference"],
+    "correct": "Address",
+    "explanation": "new always returns the address of allocated memory.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m42",
+    "topic": "Stack/Heap",
+    "question": "Objects created with new are stored where?",
+    "options": ["Stack", "Heap", "Registers", "ROM"],
+    "correct": "Heap",
+    "explanation": "Dynamic allocations go to heap.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m43",
+    "topic": "Functions",
+    "question": "Function signature includes:",
+    "options": ["Return type only", "Parameter types", "Function body", "Variable count"],
+    "correct": "Parameter types",
+    "explanation": "Return type is NOT part of signature in overload resolution.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m44",
+    "topic": "References",
+    "question": "What type is created using 'int&& x'?",
+    "options": ["Lvalue ref", "Rvalue ref", "Pointer", "Const ref"],
+    "correct": "Rvalue ref",
+    "explanation": "&& denotes rvalue reference.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m45",
+    "topic": "Operators",
+    "question": "Which operator allocates memory?",
+    "options": ["new", "delete", "sizeof", "->"],
+    "correct": "new",
+    "explanation": "new allocates memory; delete frees.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m46",
+    "topic": "STL",
+    "question": "Which container stores unique, sorted keys?",
+    "options": ["vector", "map", "set", "multimap"],
+    "correct": "set",
+    "explanation": "std::set stores unique sorted keys.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m47",
+    "topic": "Pointers",
+    "question": "Which operator gives the value pointed to?",
+    "options": ["&", "*", "->", "::"],
+    "correct": "*",
+    "explanation": "* dereferences pointer.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m48",
+    "topic": "OOP",
+    "question": "Which OOP concept allows code reuse?",
+    "options": ["Polymorphism", "Inheritance", "Abstraction", "Encapsulation"],
+    "correct": "Inheritance",
+    "explanation": "Inheritance promotes reuse.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m49",
+    "topic": "Inline",
+    "question": "Which keyword suggests inlining?",
+    "options": ["static", "inline", "virtual", "auto"],
+    "correct": "inline",
+    "explanation": "Inline suggests compiler to embed the function.",
+    "points": 3
+  },
+
+  {
+    "id": "cpp_m50",
+    "topic": "Destructor",
+    "question": "When is destructor called?",
+    "options": ["On creation", "On deletion or end of scope", "Before constructor", "During compilation"],
+    "correct": "On deletion or end of scope",
+    "explanation": "Destructors run when objects go out of scope or are deleted.",
+    "points": 3
+  }
+]
+
+

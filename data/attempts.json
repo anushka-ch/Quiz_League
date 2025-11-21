@@ -1,0 +1,1862 @@
+{
+    "fbdd786a0b2f47df8e6d2fb05d21d060": {
+        "id": "fbdd786a0b2f47df8e6d2fb05d21d060",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677442.9900827,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "d92880eba0334c4da5d76704c562aef9": {
+        "id": "d92880eba0334c4da5d76704c562aef9",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677445.86045,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "bfb10b51a42d4d49918fc650802fc7a5": {
+        "id": "bfb10b51a42d4d49918fc650802fc7a5",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677449.9363525,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "25354b6e55ac4211864e39ff96362316": {
+        "id": "25354b6e55ac4211864e39ff96362316",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677450.205902,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h2",
+            "topic": "Graphs",
+            "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+            "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra",
+                "Prim"
+            ],
+            "correct": "Dijkstra",
+            "explanation": "Dijkstra's algorithm finds shortest path in weighted graphs.",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "7f26b67e7a60410bb475215aba7a7d62": {
+        "id": "7f26b67e7a60410bb475215aba7a7d62",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677450.4579208,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "5180427b3d1843b3a61086f92097fe6c": {
+        "id": "5180427b3d1843b3a61086f92097fe6c",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677450.9832864,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h2",
+            "topic": "Graphs",
+            "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+            "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra",
+                "Prim"
+            ],
+            "correct": "Dijkstra",
+            "explanation": "Dijkstra's algorithm finds shortest path in weighted graphs.",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "51a2da9ad90b4ecfac2e2035140123d9": {
+        "id": "51a2da9ad90b4ecfac2e2035140123d9",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677451.2482522,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h2",
+            "topic": "Graphs",
+            "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+            "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra",
+                "Prim"
+            ],
+            "correct": "Dijkstra",
+            "explanation": "Dijkstra's algorithm finds shortest path in weighted graphs.",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "76347b8fea094fb7a823bcc350493ee8": {
+        "id": "76347b8fea094fb7a823bcc350493ee8",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677451.4878495,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h2",
+            "topic": "Graphs",
+            "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+            "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra",
+                "Prim"
+            ],
+            "correct": "Dijkstra",
+            "explanation": "Dijkstra's algorithm finds shortest path in weighted graphs.",
+            "points": 5
+        },
+        "remaining_questions": 9,
+        "time_limit": null,
+        "score": 0,
+        "completed": false,
+        "history": []
+    },
+    "6fe35aed4b6a48a2a4ee51322ebb4c89": {
+        "id": "6fe35aed4b6a48a2a4ee51322ebb4c89",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763677670.4319265,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 23,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 5
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            }
+        ],
+        "total_time": 13
+    },
+    "36966b2f809b4de98260f0192e64c9cf": {
+        "id": "36966b2f809b4de98260f0192e64c9cf",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677696.6405475,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 50,
+        "completed": true,
+        "history": [
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            }
+        ],
+        "total_time": 22
+    },
+    "6db9ea48086f446689b413ad1695a3bb": {
+        "id": "6db9ea48086f446689b413ad1695a3bb",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763677727.093931,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 23,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 3
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            }
+        ],
+        "total_time": 13
+    },
+    "49d35173ed494548a7f07a94d302e4d2": {
+        "id": "49d35173ed494548a7f07a94d302e4d2",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677746.8072824,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h2",
+            "topic": "Graphs",
+            "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+            "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra",
+                "Prim"
+            ],
+            "correct": "Dijkstra",
+            "explanation": "Dijkstra's algorithm finds shortest path in weighted graphs.",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 50,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            }
+        ],
+        "total_time": 25
+    },
+    "6e2826cd200f4643a7a062b74af3a330": {
+        "id": "6e2826cd200f4643a7a062b74af3a330",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677775.7157693,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 50,
+        "completed": true,
+        "history": [
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 8
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 4
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 3
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 5
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 1
+            }
+        ],
+        "total_time": 39
+    },
+    "32bcb7540db945bba6e7ae8f22fb96f9": {
+        "id": "32bcb7540db945bba6e7ae8f22fb96f9",
+        "user": "sam",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763677834.2489705,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 23,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "enqueue",
+                "correct": true,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 3
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 3
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            }
+        ],
+        "total_time": 15
+    },
+    "97f8492a473242d0b843317cd45eb8cc": {
+        "id": "97f8492a473242d0b843317cd45eb8cc",
+        "user": "sam",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763677926.7748227,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h2",
+            "topic": "Graphs",
+            "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+            "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra",
+                "Prim"
+            ],
+            "correct": "Dijkstra",
+            "explanation": "Dijkstra's algorithm finds shortest path in weighted graphs.",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 50,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 3
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            }
+        ],
+        "total_time": 24
+    },
+    "c2ffb401f14f4bc2ad3938a44ba764ee": {
+        "id": "c2ffb401f14f4bc2ad3938a44ba764ee",
+        "user": "sara",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763679018.5478437,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h1",
+            "topic": "Trees",
+            "question": "What is the time complexity of searching in a balanced BST?",
+            "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n log n)",
+                "O(1)"
+            ],
+            "correct": "O(log n)",
+            "explanation": "Balanced BSTs have a height of log n, so search is O(log n).",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 23,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 1,
+                "points": 3
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2,
+                "points": 5
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 6,
+                "points": 5
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2,
+                "points": 5
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2,
+                "points": 5
+            }
+        ],
+        "total_time": 16,
+        "completed_at": 1763679035.0848844
+    },
+    "d2eab302a26a434bb892056cfbd05bf7": {
+        "id": "d2eab302a26a434bb892056cfbd05bf7",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763679851.8305478,
+        "current_level": "medium",
+        "current_question": {
+            "id": "ds_m2",
+            "topic": "Queues",
+            "question": "Which technique is used to avoid overflow in queues?",
+            "options": [
+                "Circular Queue",
+                "Doubly Queue",
+                "Indexed Queue",
+                "Sub Queue"
+            ],
+            "correct": "Circular Queue",
+            "explanation": "Circular queue prevents unused space in the queue.",
+            "points": 3
+        },
+        "remaining_questions": 4,
+        "time_limit": null,
+        "score": 0,
+        "completed": true,
+        "history": [],
+        "total_time": 1,
+        "completed_at": 1763679853.5867763
+    },
+    "7a704f97dcc84d6181b9e0cdcd1b0314": {
+        "id": "7a704f97dcc84d6181b9e0cdcd1b0314",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763681017.0226352,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h2",
+            "topic": "Graphs",
+            "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+            "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra",
+                "Prim"
+            ],
+            "correct": "Dijkstra",
+            "explanation": "Dijkstra's algorithm finds shortest path in weighted graphs.",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 50,
+        "completed": true,
+        "history": [
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 3
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 4
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "What is the time complexity of searching in a balanced BST?",
+                "selected": "O(log n)",
+                "correct": true,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 4
+            },
+            {
+                "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+                "selected": "Dijkstra",
+                "correct": true,
+                "correctAnswer": "Dijkstra",
+                "difficulty": "hard",
+                "time": 1
+            }
+        ],
+        "total_time": 30
+    },
+    "24bbed8a82344e3caefdbe7bf2cf1729": {
+        "id": "24bbed8a82344e3caefdbe7bf2cf1729",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763686140.0163696,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h46",
+            "topic": "Tries",
+            "question": "Which application commonly uses tries?",
+            "options": [
+                "Sorting numbers",
+                "String search",
+                "Compression",
+                "Graph traversal"
+            ],
+            "correct": "String search",
+            "explanation": "Tries efficiently store and match words.",
+            "points": 5
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 16,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 3
+            },
+            {
+                "question": "What is the height of a full binary tree with N internal nodes?",
+                "selected": "N",
+                "correct": false,
+                "correctAnswer": "log\u2082(N+1)",
+                "difficulty": "hard",
+                "time": 11
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 7
+            },
+            {
+                "question": "Which rotation fixes imbalance in AVL trees?",
+                "selected": "Both",
+                "correct": true,
+                "correctAnswer": "Both",
+                "difficulty": "hard",
+                "time": 5
+            },
+            {
+                "question": "Which application commonly uses tries?",
+                "selected": "String search",
+                "correct": true,
+                "correctAnswer": "String search",
+                "difficulty": "hard",
+                "time": 6
+            }
+        ],
+        "total_time": 36
+    },
+    "0e4ca1a67c8e4a9f94ee9ddfb075e506": {
+        "id": "0e4ca1a67c8e4a9f94ee9ddfb075e506",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763686389.0878475,
+        "current_level": "easy",
+        "current_question": {
+            "id": "ds_e50",
+            "topic": "Trees",
+            "question": "How many children does a binary search tree node have?",
+            "options": [
+                "At most 2",
+                "At least 2",
+                "Exactly 2",
+                "Unlimited"
+            ],
+            "correct": "At most 2",
+            "explanation": "BST is a binary tree.",
+            "points": 1
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 8,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 1
+            },
+            {
+                "question": "What is the maximum number of nodes in a binary tree of height h?",
+                "selected": "2^(h+1)-1",
+                "correct": true,
+                "correctAnswer": "2^(h+1)-1",
+                "difficulty": "hard",
+                "time": 12
+            },
+            {
+                "question": "Which algorithm converts a BST into a balanced BST?",
+                "selected": "DFS",
+                "correct": false,
+                "correctAnswer": "Rebuild using inorder",
+                "difficulty": "hard",
+                "time": 10
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Indexed Queue",
+                "correct": false,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 5
+            },
+            {
+                "question": "How many children does a binary search tree node have?",
+                "selected": "At least 2",
+                "correct": false,
+                "correctAnswer": "At most 2",
+                "difficulty": "easy",
+                "time": 28
+            }
+        ],
+        "total_time": 60
+    },
+    "80b4f115d4de48389091e38839284174": {
+        "id": "80b4f115d4de48389091e38839284174",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "rapid",
+        "started_at": 1763699641.4574564,
+        "current_level": "easy",
+        "current_question": {
+            "id": "ds_e32",
+            "topic": "Hashing",
+            "question": "Load factor means?",
+            "options": [
+                "Keys / Table size",
+                "Size / Keys",
+                "Keys \u00d7 Index",
+                "Memory used"
+            ],
+            "correct": "Keys / Table size",
+            "explanation": "Measures how full table is.",
+            "points": 1
+        },
+        "remaining_questions": null,
+        "time_limit": 60,
+        "score": 30,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "Which traversal gives nodes in sorted order for a BST?",
+                "selected": "Inorder",
+                "correct": true,
+                "correctAnswer": "Inorder",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which method detects a loop in a linked list?",
+                "selected": "Two-pointer method",
+                "correct": true,
+                "correctAnswer": "Two-pointer method",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which method detects a loop in a linked list?",
+                "selected": "Two-pointer method",
+                "correct": true,
+                "correctAnswer": "Two-pointer method",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which algorithm helps find Eulerian paths?",
+                "selected": "Hierholzer\u2019s algorithm",
+                "correct": true,
+                "correctAnswer": "Hierholzer\u2019s algorithm",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which algorithm is used to detect negative cycles?",
+                "selected": "Bellman-Ford",
+                "correct": true,
+                "correctAnswer": "Bellman-Ford",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which technique avoids recomputation of overlapping subproblems?",
+                "selected": "Backtracking",
+                "correct": false,
+                "correctAnswer": "Memoization",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "pop",
+                "correct": false,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "Which traversal uses a stack?",
+                "selected": "Level order",
+                "correct": false,
+                "correctAnswer": "DFS",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Linked lists are good for?",
+                "selected": "Fast indexing",
+                "correct": false,
+                "correctAnswer": "Both insertion & deletion",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which structure stores adjacency lists?",
+                "selected": "Vector of vectors",
+                "correct": true,
+                "correctAnswer": "Vector of vectors",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "push",
+                "correct": false,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "A tree with no nodes is?",
+                "selected": "Empty",
+                "correct": true,
+                "correctAnswer": "Empty",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "peek",
+                "correct": false,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "How many children does a binary search tree node have?",
+                "selected": "At least 2",
+                "correct": false,
+                "correctAnswer": "At most 2",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which operation removes an element from a queue?",
+                "selected": "push",
+                "correct": false,
+                "correctAnswer": "dequeue",
+                "difficulty": "easy",
+                "time": 0
+            }
+        ],
+        "total_time": 0
+    },
+    "37214d28de2a4d14b824fd93df4dd8af": {
+        "id": "37214d28de2a4d14b824fd93df4dd8af",
+        "user": "bhumika",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763719626.2885308,
+        "current_level": "medium",
+        "current_question": {
+            "id": "ds_m1",
+            "topic": "Stacks",
+            "question": "Which operation is not valid in a stack?",
+            "options": [
+                "push",
+                "pop",
+                "peek",
+                "enqueue"
+            ],
+            "correct": "enqueue",
+            "explanation": "enqueue is used in queues, not stacks.",
+            "points": 3
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 4,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 4
+            },
+            {
+                "question": "Which traversal helps reconstruct a binary tree when combined with inorder?",
+                "selected": "Postorder",
+                "correct": false,
+                "correctAnswer": "Preorder",
+                "difficulty": "hard",
+                "time": 4
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Doubly Queue",
+                "correct": false,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 3
+            },
+            {
+                "question": "Which structure stores adjacency lists?",
+                "selected": "Vector of vectors",
+                "correct": true,
+                "correctAnswer": "Vector of vectors",
+                "difficulty": "easy",
+                "time": 3
+            },
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "pop",
+                "correct": false,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 1
+            }
+        ],
+        "total_time": 18
+    },
+    "779fd164774a47dfa04d3d973d30bb1d": {
+        "id": "779fd164774a47dfa04d3d973d30bb1d",
+        "user": "bhumika",
+        "subject": "data_structures",
+        "mode": "rapid",
+        "started_at": 1763719689.3495116,
+        "current_level": "medium",
+        "current_question": {
+            "id": "ds_m2",
+            "topic": "Queues",
+            "question": "Which technique is used to avoid overflow in queues?",
+            "options": [
+                "Circular Queue",
+                "Doubly Queue",
+                "Indexed Queue",
+                "Sub Queue"
+            ],
+            "correct": "Circular Queue",
+            "explanation": "Circular queue prevents unused space in the queue.",
+            "points": 3
+        },
+        "remaining_questions": null,
+        "time_limit": 60,
+        "score": 31,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "enqueue",
+                "correct": true,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "What is the time complexity of building a heap using heapify?",
+                "selected": "O(log n)",
+                "correct": false,
+                "correctAnswer": "O(n)",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "Which rotation fixes imbalance in AVL trees?",
+                "selected": "Both",
+                "correct": true,
+                "correctAnswer": "Both",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which algorithm is used for topological sorting?",
+                "selected": "Prim",
+                "correct": false,
+                "correctAnswer": "BFS/DFS",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "Which technique is used to optimize DP when states depend only on the last column or row?",
+                "selected": "Space optimization",
+                "correct": true,
+                "correctAnswer": "Space optimization",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which technique reduces time for range sum queries?",
+                "selected": "Segment tree",
+                "correct": true,
+                "correctAnswer": "Segment tree",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which algorithm finds articulation points?",
+                "selected": "Kruskal",
+                "correct": false,
+                "correctAnswer": "Tarjan",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Circular Queue",
+                "correct": true,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "Which data structure is ideal for storing sparse graphs?",
+                "selected": "Tree",
+                "correct": false,
+                "correctAnswer": "Adjacency list",
+                "difficulty": "hard",
+                "time": 0
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Doubly Queue",
+                "correct": false,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "Which traversal visits Left-Root-Right?",
+                "selected": "Inorder",
+                "correct": true,
+                "correctAnswer": "Inorder",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "pop",
+                "correct": false,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "What is the first index of an array in most languages?",
+                "selected": "-1",
+                "correct": false,
+                "correctAnswer": "0",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "A graph with no cycles is called?",
+                "selected": "Cyclic",
+                "correct": false,
+                "correctAnswer": "Acyclic",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which operation inserts an element in a stack?",
+                "selected": "push",
+                "correct": true,
+                "correctAnswer": "push",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Doubly Queue",
+                "correct": false,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "Accessing an array element by index is?",
+                "selected": "O(n)",
+                "correct": false,
+                "correctAnswer": "O(1)",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which traversal uses a stack?",
+                "selected": "DFS",
+                "correct": true,
+                "correctAnswer": "DFS",
+                "difficulty": "easy",
+                "time": 0
+            },
+            {
+                "question": "Which operation is not valid in a stack?",
+                "selected": "pop",
+                "correct": false,
+                "correctAnswer": "enqueue",
+                "difficulty": "medium",
+                "time": 0
+            },
+            {
+                "question": "What is the topmost node in a tree called?",
+                "selected": "Root",
+                "correct": true,
+                "correctAnswer": "Root",
+                "difficulty": "easy",
+                "time": 0
+            }
+        ],
+        "total_time": 0
+    },
+    "145da107ad334defa54ee8cd931dad58": {
+        "id": "145da107ad334defa54ee8cd931dad58",
+        "user": "bhumika",
+        "subject": "data_structures",
+        "mode": "challenge",
+        "started_at": 1763719808.3242714,
+        "current_level": "hard",
+        "current_question": {
+            "id": "ds_h14",
+            "topic": "Graphs",
+            "question": "Which algorithm checks if a graph is bipartite?",
+            "options": [
+                "Kruskal",
+                "DFS",
+                "BFS coloring",
+                "Floyd Warshall"
+            ],
+            "correct": "BFS coloring",
+            "explanation": "Using BFS with two-coloring detects bipartite graphs.",
+            "points": 5
+        },
+        "remaining_questions": 2,
+        "time_limit": null,
+        "score": 10,
+        "completed": true,
+        "history": [
+            {
+                "question": "What is the height of a full binary tree with N internal nodes?",
+                "selected": "log\u2082(N+1)",
+                "correct": true,
+                "correctAnswer": "log\u2082(N+1)",
+                "difficulty": "hard",
+                "time": 2
+            },
+            {
+                "question": "Which application commonly uses tries?",
+                "selected": "Compression",
+                "correct": false,
+                "correctAnswer": "String search",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of building a heap using heapify?",
+                "selected": "O(1)",
+                "correct": false,
+                "correctAnswer": "O(n)",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which hashing method resolves collisions using linked lists?",
+                "selected": "Linear probing",
+                "correct": false,
+                "correctAnswer": "Chaining",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Deleting the max element from a max-heap takes how long?",
+                "selected": "O(1)",
+                "correct": false,
+                "correctAnswer": "O(log n)",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "Which heap allows merging two heaps efficiently?",
+                "selected": "AVL tree",
+                "correct": false,
+                "correctAnswer": "Binomial heap",
+                "difficulty": "hard",
+                "time": 1
+            },
+            {
+                "question": "What is the time complexity of building a heap using heapify?",
+                "selected": "O(n)",
+                "correct": true,
+                "correctAnswer": "O(n)",
+                "difficulty": "hard",
+                "time": 1
+            }
+        ],
+        "total_time": 18
+    },
+    "890d97de82794cb093bd42d5d912a735": {
+        "id": "890d97de82794cb093bd42d5d912a735",
+        "user": "anushka",
+        "subject": "cpp",
+        "mode": "classic",
+        "started_at": 1763721868.2972538,
+        "current_level": "easy",
+        "current_question": {
+            "id": "cpp_e27",
+            "topic": "OOP",
+            "question": "Which keyword creates an object?",
+            "options": [
+                "class",
+                "struct",
+                "new",
+                "object"
+            ],
+            "correct": "new",
+            "explanation": "The new keyword dynamically creates objects.",
+            "points": 1
+        },
+        "remaining_questions": 3,
+        "time_limit": null,
+        "score": 0,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which header is required for file operations?",
+                "selected": "<stdio.h>",
+                "correct": false,
+                "correctAnswer": "<fstream>",
+                "difficulty": "medium",
+                "time": 2
+            }
+        ],
+        "total_time": 5
+    },
+    "164e84b38cb349adbcd39a543b3e384d": {
+        "id": "164e84b38cb349adbcd39a543b3e384d",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763721886.769749,
+        "current_level": "medium",
+        "current_question": {
+            "id": "ds_m1",
+            "topic": "Stacks",
+            "question": "Which operation is not valid in a stack?",
+            "options": [
+                "push",
+                "pop",
+                "peek",
+                "enqueue"
+            ],
+            "correct": "enqueue",
+            "explanation": "enqueue is used in queues, not stacks.",
+            "points": 3
+        },
+        "remaining_questions": 4,
+        "time_limit": null,
+        "score": 0,
+        "completed": true,
+        "history": [],
+        "total_time": 2
+    },
+    "6fe282ae94874611abd740f2001c6fbf": {
+        "id": "6fe282ae94874611abd740f2001c6fbf",
+        "user": "anushka",
+        "subject": "data_structures",
+        "mode": "classic",
+        "started_at": 1763721898.3189404,
+        "current_level": "easy",
+        "current_question": {
+            "id": "ds_e15",
+            "topic": "Sorting",
+            "question": "Which sorting algorithm is the fastest on average?",
+            "options": [
+                "Bubble sort",
+                "Insertion sort",
+                "Merge sort",
+                "Counting sort"
+            ],
+            "correct": "Merge sort",
+            "explanation": "Merge sort is O(n log n).",
+            "points": 1
+        },
+        "remaining_questions": 0,
+        "time_limit": null,
+        "score": 0,
+        "completed": true,
+        "history": [
+            {
+                "question": "Which technique is used to avoid overflow in queues?",
+                "selected": "Indexed Queue",
+                "correct": false,
+                "correctAnswer": "Circular Queue",
+                "difficulty": "medium",
+                "time": 11
+            },
+            {
+                "question": "Which operation removes an element from a queue?",
+                "selected": "push",
+                "correct": false,
+                "correctAnswer": "dequeue",
+                "difficulty": "easy",
+                "time": 2
+            },
+            {
+                "question": "Which linked list allows traversal in both directions?",
+                "selected": "Circular Linked List",
+                "correct": false,
+                "correctAnswer": "Doubly Linked List",
+                "difficulty": "easy",
+                "time": 1
+            },
+            {
+                "question": "Height of a single-node tree is?",
+                "selected": "1",
+                "correct": false,
+                "correctAnswer": "0",
+                "difficulty": "easy",
+                "time": 1
+            },
+            {
+                "question": "Which sorting algorithm is the fastest on average?",
+                "selected": "Bubble sort",
+                "correct": false,
+                "correctAnswer": "Merge sort",
+                "difficulty": "easy",
+                "time": 1
+            }
+        ],
+        "total_time": 20
+    }
+}
